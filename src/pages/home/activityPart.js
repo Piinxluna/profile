@@ -19,7 +19,7 @@ const activityTypes = [
     title: "ด้านอื่นๆ",
     thumbnailUrl:
       "https://images.pexels.com/photos/2663851/pexels-photo-2663851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    link: "other",
+    link: "others",
   },
 ];
 

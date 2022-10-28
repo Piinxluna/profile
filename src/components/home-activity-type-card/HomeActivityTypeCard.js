@@ -7,7 +7,7 @@ function HomeActivityType(props) {
     <div className="ActivityTypeCard">
       <img src={detail.thumbnailUrl} alt="type"></img>
       <h4>{detail.title}</h4>
-      <a href={`/activities/${detail.link}`}>
+      <a href={`/profile/activities/${detail.link}`}>
         <button>
           ดูผลงาน <FaArrowRight />
         </button>

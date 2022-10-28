@@ -1,6 +1,11 @@
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
 .hobbies-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
   max-width: 1500px;

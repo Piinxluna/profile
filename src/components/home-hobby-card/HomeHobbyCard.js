@@ -22,8 +22,8 @@ function HomeHobbyCard(props) {
       <h4>{detail.title}</h4>
       <p>{detail.description}</p>
 
-      {detail.moreInfo != null && (
-        <a href={`/hobbies/${detail.moreInfo}`}>
+      {!!detail.moreInfo && (
+        <a href={`/profile/hobbies/${detail.moreInfo}`}>
           ดูผลงานเพิ่มเติม <FaArrowRight />
         </a>
       )}
