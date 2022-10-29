@@ -1,9 +1,9 @@
-.hobbies {
+.home-hobbies {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 
-.hobbies-grid {
+.home-hobbies-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 16px;

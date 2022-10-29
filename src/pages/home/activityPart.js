@@ -28,9 +28,9 @@ const ActivityPart = () => {
     return <ActivityTypeCard key={index} detail={activityType} />;
   });
   return (
-    <div className="activities">
+    <div className="home-activities">
       <h3>ผลงานและกิจกรรมที่เคยทำ</h3>
-      <div className="activities-grid">{activityTypeElements}</div>
+      <div className="home-activities-grid">{activityTypeElements}</div>
     </div>
   );
 };

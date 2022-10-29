@@ -35,9 +35,9 @@ const HobbyPart = () => {
     return <HobbyCard key={index} detail={hobby} />;
   });
   return (
-    <div className="hobbies">
+    <div className="home-hobbies">
       <h3>งานอดิเรก</h3>
-      <div className="hobbies-grid">{hobbyElements}</div>
+      <div className="home-hobbies-grid">{hobbyElements}</div>
     </div>
   );
 };

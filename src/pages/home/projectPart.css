@@ -1,4 +1,4 @@
-.projects-grid {
+.home-projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
