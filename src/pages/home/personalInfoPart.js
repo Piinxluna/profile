@@ -49,7 +49,7 @@ function PersonalInfoPart() {
           />
         </div>
       </div>
-      <img src="images/test1.jpg" alt="Chanya's Profile" />
+      <img src="images/Pingping01.jpg" alt="Chanya's Profile" />
     </div>
   );
 }
