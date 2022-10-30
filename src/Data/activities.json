@@ -4,37 +4,34 @@
     "categories": "Other",
     "name": "อบรม Korean First Step",
     "organizer": "Yonsei University",
-    "year": "2020-06-06T17:00:00.000Z",
-    "startdate": "2020-06-06T17:00:00.000Z",
-    "enddate": "2020-07-11T17:00:00.000Z",
+    "startDate": "07/06/2020",
+    "endDate": "12/07/2020",
     "detail": "https://www.coursera.org/account/accomplishments/verify/TVJ73EWSUVAC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ikrlp35EcrUjBa5QItQ?e=cBJJ6z",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 2,
     "categories": "Other",
     "name": "กิจกรรม Leadership Booster",
     "organizer": "Base Playhouse",
-    "year": "2020-10-31T17:00:00.000Z",
-    "startdate": "2020-10-31T17:00:00.000Z",
+    "startDate": "01/11/2020",
     "detail": "กิจกรรมพัฒนาทักษะความเป็นผู้นำ",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ikrlu7CRAWO4TA9Qong?e=2pfziu",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 3,
     "categories": "Other",
     "name": "กิจกรรม MUEG Open house 2020",
     "organizer": "คณะวิศวกรรมศาสตร์ มหาวิทยาลัยมหิดล",
-    "year": "2020-11-13T17:00:00.000Z",
-    "startdate": "2020-11-13T17:00:00.000Z",
+    "startDate": "14/11/2020",
     "detail": "งานมหิดลวิชาการ เปิดบ้านมหิดล ประจำปี 2563",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMVQTmsug6vwW_bZw?e=MoRAoZ",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 4,
@@ -42,23 +39,21 @@
     "name": "การแข่งขันเขียนโปรแกรมคอมพิวเตอร์ ประจำปี 2563 ระดับมัธยมศึกษาตอนปลาย",
     "organizer": "มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน",
     "award": "พิเศษ (ใจเกินร้อยคะแนนเกินครึ่ง)",
-    "year": "2020-12-03T17:00:00.000Z",
-    "startdate": "2020-12-03T17:00:00.000Z",
+    "startDate": "04/12/2020",
     "detail": "เป็นแข่งเขียนโปรแกรมภาษา C++ เนื่องในงานเกษตรกำแพงแสน ประจำปี 2563",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IkrkZjmL1qnMbyVsesA?e=Pjs8EM",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 5,
     "categories": "Other",
     "name": "กิจกรรม Innovator Journey Online Workshop",
     "organizer": "หลักสูตรการจัดการเทคโนโลยีและนวัตกรรม คณะบริหารธุรกิจ สถาบันเทคโนโลยีไทย-ญี่ปุ่น",
-    "year": "2021-03-05T17:00:00.000Z",
-    "startdate": "2021-03-05T17:00:00.000Z",
+    "startDate": "06/03/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQzdijnmeY3KCHyNA?e=GuJWtY",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 6,
@@ -66,110 +61,101 @@
     "name": "โครงการทดสอบความรู้แบบ Online วิชา PAT1 ครั้งที่ 2",
     "organizer": "บริษัท เสริมปัญญา จำกัด",
     "score": "คะแนนรวม 130 คะแนนจากคะแนนเต็ม 300 คะแนน",
-    "year": "2021-03-07T17:00:00.000Z",
-    "startdate": "2021-03-07T17:00:00.000Z",
+    "startDate": "08/03/2021",
     "detail": "ระดับชั้นมัธยมศึกษาตอนปลาย ประจำปีการศึกษา 2563",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQ2HaelLZdmpf_ZtA?e=u0GqZ7",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 7,
     "categories": "Computer",
     "name": "กิจกรรม Microsoft Digigirlz 2021 Thailand",
     "organizer": "Microsoft (Thailand)",
-    "year": "2021-03-19T17:00:00.000Z",
-    "startdate": "2021-03-19T17:00:00.000Z",
+    "startDate": "20/03/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQy969cYedl5j_2ew?e=aKzyVe",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 8,
     "categories": "Computer",
     "name": "อบรมหลักสูตร Line bot designer",
     "organizer": "ภาควิชาคอมพิวเตอร์ศึกษา คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
-    "year": "2021-03-20T17:00:00.000Z",
-    "startdate": "2021-03-20T17:00:00.000Z",
+    "startDate": "21/03/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQxXHKCTaQeeio3xg?e=wHaDF2",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 9,
     "categories": "Other",
     "name": "Elementary Korean I (online)",
     "organizer": "ศูนย์ภาษา คณะมนุษยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
-    "year": "2021-03-25T17:00:00.000Z",
-    "startdate": "2021-03-25T17:00:00.000Z",
-    "enddate": "2021-05-24T17:00:00.000Z",
+    "startDate": "26/03/2021",
+    "endDate": "25/05/2021",
     "detail": "เรียนภาษาเกาหลี ระดับพื้นฐาน 1",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMXAkvuqJky7RM5gQ?e=hugmZZ",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 10,
     "categories": "Computer",
     "name": "โครงการ \"Mission Innovator\" สร้างนวัตกรรมทางสังคม",
     "organizer": "คณะสหวิทยาการ เทคโนโลยีและนวัตรกรรม มหาวิทยาลัยศรีปทุม",
-    "year": "2021-04-27T17:00:00.000Z",
-    "startdate": "2021-04-27T17:00:00.000Z",
+    "startDate": "28/04/2021",
     "detail": "ประเภทการแข่งขันระดับชั้นมัธยมศึกษาปีที่ 4-6 (ประเภททีม) ปีการศึกษา 2563",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ik8RCJBWsD3syNxNfBA?e=i3E63S",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 11,
     "categories": "Computer",
     "name": "กิจกรรม Aidea Workshop 2021",
     "organizer": "Aidea Thailand",
-    "year": "2021-05-25T17:00:00.000Z",
-    "startdate": "2021-05-25T17:00:00.000Z",
-    "enddate": "2021-06-04T17:00:00.000Z",
-    "exactdate": "26-May-2021, 3-Jun-2021, 5-Jun-2021",
+    "startDate": "26/05/2021",
+    "endDate": "05/06/2021",
+    "exactDate": "26-May-2021, 3-Jun-2021, 5-Jun-2021",
     "detail": "เป็น workshop เพื่อเรียนรู้และสร้างปัญญาประดิษฐ์ (AI) ที่สามารถตอบโจทย์การแก้ปัญหาผ่านกระบวนการ Design Thinking และ Critical Thinking",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IldYIGweNh5B4X6706Q?e=c7VZ7q",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 12,
     "categories": "Other",
     "name": "กิจกรรม Make a Wish on Vesak Day จุดเทียน แผ่เมตตา ส่งพลังบวกให้โลกพ้นภัยโควิด",
     "organizer": "องค์กรอาสาสมัครเพื่อสันติภาพ",
-    "year": "2021-05-25T17:00:00.000Z",
-    "startdate": "2021-05-25T17:00:00.000Z",
+    "startDate": "26/05/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMYvVqGleldmI8BDw?e=gxtuBf",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 13,
     "categories": "Other",
     "name": "อบรม Korean : Basic 2",
     "organizer": "คณะมนุษยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ",
-    "year": "2021-05-28T17:00:00.000Z",
-    "startdate": "2021-05-28T17:00:00.000Z",
-    "enddate": "2021-09-10T17:00:00.000Z",
+    "startDate": "29/05/2021",
+    "endDate": "11/09/2021",
     "detail": "เรียนภาษาเกาหลี ระดับพื้นฐาน 2",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQ1vMc4JgzY4Ptggg?e=JWf66j",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 14,
     "categories": "Computer",
     "name": "อบรม AutoCAD Online Training",
     "organizer": "EEC Automation Park (มหาวิทยาลัยบูรพา)",
-    "year": "2021-07-16T17:00:00.000Z",
-    "startdate": "2021-07-16T17:00:00.000Z",
-    "enddate": "2021-07-17T17:00:00.000Z",
+    "startDate": "17/07/2021",
+    "endDate": "18/07/2021",
     "detail": "FABLAB for Education : อบรมการใช้งานโปรแกรม AutoCAD (14 ชั่วโมง)",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQ0yKzMefJs_1F2bQ?e=doHWzz",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 15,
@@ -177,35 +163,32 @@
     "name": "การทดสอบความรู้พื้นฐานภาษาไทย เนื่องในวันภาษาไทยแห่งชาติ",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
     "score": "คุณภาพผ่านเกณฑ์ประเมินคิดเป็นร้อยละ 73",
-    "year": "2021-07-28T17:00:00.000Z",
-    "startdate": "2021-07-28T17:00:00.000Z",
+    "startDate": "29/07/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMdVDclACsS2z4afg?e=FRXNf8",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 16,
     "categories": "Computer",
     "name": "อบรม Basic Data Science course and examination",
     "organizer": "ITM Mahidol University & ATDI",
-    "year": "2021-08-18T17:00:00.000Z",
-    "startdate": "2021-08-18T17:00:00.000Z",
+    "startDate": "19/08/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleQwe1iOh0TrtyYMMQ?e=8zmhPa",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 17,
     "categories": "Other",
     "name": "อบรม Korean : Basic 3",
     "organizer": "คณะมนุษยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ",
-    "year": "2021-10-01T17:00:00.000Z",
-    "startdate": "2021-10-01T17:00:00.000Z",
-    "enddate": "2021-12-24T17:00:00.000Z",
+    "startDate": "02/10/2021",
+    "endDate": "25/12/2021",
     "detail": "เรียนภาษาเกาหลี ระดับพื้นฐาน 3",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ile060k59M1cPrjfq6Q?e=gxOat8",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 18,
@@ -213,22 +196,20 @@
     "name": "กิจกรรม K-Engineering World Workshop 2021 กลุ่มวิศวะคอมพิวเตอร์",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
     "score": "ระดับ Excellent",
-    "year": "2021-11-06T17:00:00.000Z",
-    "startdate": "2021-11-06T17:00:00.000Z",
+    "startDate": "07/11/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IleR_7n5ipFBE9o1YNQ?e=4VTHD1",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 19,
     "categories": "Computer",
     "name": "กิจกรรม Inspire IT65 และการอบรมเชิงปฏิบัติการ Workshop Portfolio แบบ Interactive ด้วย Web Technology",
     "organizer": "ชุมนุมสร้างเสริมประสบการณ์ชีวิต คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "year": "2021-11-12T17:00:00.000Z",
-    "startdate": "2021-11-12T17:00:00.000Z",
+    "startDate": "13/11/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMW-vwIjvdqGfrYzA?e=3ryjUf",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 20,
@@ -236,11 +217,10 @@
     "name": "การแข่งขันตอบปัญหาวิชาการ ระดับชั้นมัธยมศึกษาตอนปลาย หมวดวิชาคอมพิวเตอร์ ในงาน Academic War สงครามแห่งปัญญา ครั้งที่ 3 (รอบคัดเลือก)",
     "organizer": "TCASter",
     "score": "คะแนนผ่านเกณฑ์ระดับเพชร",
-    "year": "2021-11-13T17:00:00.000Z",
-    "startdate": "2021-11-13T17:00:00.000Z",
+    "startDate": "14/11/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMcfaopD3_drb1G7w?e=RPs25a",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 21,
@@ -248,11 +228,10 @@
     "name": "การแข่งขันตอบปัญหาวิชาการ ระดับชั้นมัธยมศึกษาตอนปลาย หมวดวิชาคอมพิวเตอร์ ในงาน Academic War สงครามแห่งปัญญา ครั้งที่ 3 (รอบชิงชนะเลิศ)",
     "organizer": "TCASter",
     "award": "รองชนะเลิศอันดับที่ 1",
-    "year": "2021-11-20T17:00:00.000Z",
-    "startdate": "2021-11-20T17:00:00.000Z",
+    "startDate": "21/11/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMb_hPSLpzNr9J6KQ?e=d0y0kx",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 22,
@@ -260,46 +239,42 @@
     "name": "ค่ายอัจฉริยภาพวิศวศิลปากร สาขาวิศวกรรมอิเล็กทรอนิกส์และระบบคอมพิวเตอร์ ภาควิชาวิศวกรรมไฟฟ้า",
     "organizer": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยศิลปากร",
     "score": "ระดับดีเด่น",
-    "year": "2021-11-25T17:00:00.000Z",
-    "startdate": "2021-11-25T17:00:00.000Z",
-    "enddate": "2021-11-27T17:00:00.000Z",
+    "startDate": "26/11/2021",
+    "endDate": "28/11/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IloBMvzIIUnXtOUQoUg?e=BzNZCx",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 23,
     "categories": "Computer",
     "name": "อบรม Basic Data Analytics Workshop",
     "organizer": "SIIT",
-    "year": "2021-12-13T17:00:00.000Z",
-    "startdate": "2021-12-13T17:00:00.000Z",
+    "startDate": "14/12/2021",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMaElnswj_jWT5TKw?e=YwzAYt",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 24,
     "categories": "Computer",
     "name": "อบรม Basic Python Programming for Health Data Science แบบ Online",
     "organizer": "วิทยาลัยแพทยศาสตร์ศรีสวางควัฒน ราชวิทยาลัยจุฬาภรณ์",
-    "year": "2022-01-07T17:00:00.000Z",
-    "startdate": "2022-01-07T17:00:00.000Z",
-    "enddate": "2022-01-08T17:00:00.000Z",
+    "startDate": "08/01/2022",
+    "endDate": "09/01/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMo0VjsF_2b-D4I0Q?e=UlTSYJ",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 25,
     "categories": "Computer",
     "name": "อบรม ปัญญาประดิษฐ์กับเทคโนโลยีด้านเสียง (AI Speech)",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม) ร่วมกับ ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "year": "2022-02-09T17:00:00.000Z",
-    "startdate": "2022-02-09T17:00:00.000Z",
+    "startDate": "10/02/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IlpZGy4Y8HLo-KNwtNg?e=HtN2uA",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 26,
@@ -307,121 +282,111 @@
     "name": "การประกวดแข่งขัน Kidbright Onstage 2022",
     "organizer": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ \\n ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ",
     "score": "เข้ารอบ 20 ทีมสุดท้าย",
-    "year": "2022-02-10T17:00:00.000Z",
-    "startdate": "2022-02-10T17:00:00.000Z",
-    "enddate": "2022-02-12T17:00:00.000Z",
+    "startDate": "11/02/2022",
+    "endDate": "13/02/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMz3slhKn6fcom8gw?e=VWgvZW",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 27,
     "categories": "Volunteer",
     "name": "กิจกรรมเก็บขยะปล่อยปลาฉลาม ณ หาดตะวันรอน จังหวัดชลบุรี",
     "organizer": "One fine day",
-    "year": "2022-04-29T17:00:00.000Z",
-    "startdate": "2022-04-29T17:00:00.000Z",
+    "startDate": "30/04/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsNReBzdg14GOn5K6Q?e=Z6qdi7",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 28,
     "categories": "Other",
     "name": "ค่ายลานเกียร์ ครั้งที่ 21",
     "organizer": "คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
-    "year": "2022-06-01T17:00:00.000Z",
-    "startdate": "2022-06-01T17:00:00.000Z",
-    "enddate": "2022-06-04T17:00:00.000Z",
+    "startDate": "02/06/2022",
+    "endDate": "05/06/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMrOvHuL1K27IuXtA?e=6AY8nH",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 29,
     "categories": "Computer",
     "name": "การทดสอบวัดระดับความรู้เบื้องต้นเกี่ยวกับทักษะกระบวนการคิดแบบคอมพิวเตอร์ ToBeIT'66 ด้วยการทำแบบทดสอบออนไลน์",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "year": "2022-06-03T17:00:00.000Z",
-    "startdate": "2022-06-03T17:00:00.000Z",
-    "enddate": "2022-06-11T17:00:00.000Z",
-    "exactdate": "4-5/6/2022, 11-12/6/2022",
+    "startDate": "04/06/2022",
+    "endDate": "12/06/2022",
+    "exactDate": "4-5/6/2022, 11-12/6/2022",
     "detail": "ค่าย ToBeIT’66 แบบ Online เฉพาะวันเสาร์อาทิตย์",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ip7Nckx560eKZfXblOQ?e=tkhnav",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 30,
     "categories": "Computer",
     "name": "ค่ายพัฒนาทักษะกระบวนการคิดแบบคอมพิวเตอร์และการพัฒนาโครงงานด้านเทคโนโลยีสารสนเทศ ToBeIT’66",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "year": "2022-06-17T17:00:00.000Z",
-    "startdate": "2022-06-17T17:00:00.000Z",
-    "enddate": "2022-06-25T17:00:00.000Z",
-    "exactdate": "18-19/6/2022, 25-26/6/2022 ",
+    "startDate": "18/06/2022",
+    "endDate": "26/06/2022",
+    "exactDate": "18-19/6/2022, 25-26/6/2022 ",
     "detail": "ค่าย ToBeIT’66 แบบ Onsite เฉพาะวันเสาร์อาทิตย์",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMt0Gw_aR19MMSefg?e=fcG9Iz",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 31,
     "categories": "Volunteer",
     "name": "ภารกิจบริจาคเส้นผมและค่าทอวิก เพื่อมอบให้แก่ผู้ป่วยมะเร็งยากไร้ทั่วประเทศ",
     "organizer": "มูลนิธิจากนางฟ้าถึงคุณวันใหม่",
-    "year": "2022-06-29T17:00:00.000Z",
-    "startdate": "2022-06-29T17:00:00.000Z",
+    "startDate": "30/06/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsNOOimZX95bAlVFyA?e=PwgNeJ",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 32,
     "categories": "Computer",
     "name": "ค่าย ITCamp 18 ครั้งที่ 18",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "year": "2022-07-13T17:00:00.000Z",
-    "startdate": "2022-07-13T17:00:00.000Z",
-    "enddate": "2022-07-16T17:00:00.000Z",
+    "startDate": "14/07/2022",
+    "endDate": "17/07/2022",
     "detail": "ค่ายย่อย Nettapunk (Network)",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMsBF6NjyBq7zd6Iw?e=VBGhVL",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 33,
     "categories": "Computer",
     "name": "อบรม React ก้าวแรกสู่การเป็นนักพัฒนา Front-End มืออาชีพ",
     "organizer": "มหาวิทยาลัยรังสิต",
-    "year": "2022-07-23T17:00:00.000Z",
-    "startdate": "2022-07-23T17:00:00.000Z",
+    "startDate": "24/07/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IpLFsxm3wwhc8UD-jUQ?e=RqnTFn",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 34,
     "categories": "Computer",
     "name": "การแข่งขันทักษะทางคอมพิวเตอร์ เทคโนโลยีสารสนเทศ วิทยาการข้อมูลและปัญญาประดิษฐ์ ระดับมัธยมศึกษาตอนปลาย",
     "organizer": "คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น",
-    "year": "2022-08-15T17:00:00.000Z",
-    "startdate": "2022-08-15T17:00:00.000Z",
+    "startDate": "16/08/2022",
     "detail": "การแข่งขันตอบปัญหาทางคอมพิวเตอร์รวม 25 ข้อ และเขียนโปรแกรมภาษา python เพื่อแก้โจทย์ปัญหาและแสดงผลกราฟตามที่โจทย์กำหนด ด้วย pandas, numpy และ matplotlib \\n เนื่องในงานสัปดาห์วิทยาศาสตร์แห่งชาติ ครั้งที่ 5 และงานสัปดาห์วิชาการ ครั้งที่ 17 ประจำปี 2565",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsMqlrIr-HpGx6shcA?e=pb7KJu",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 35,
     "categories": "Other",
     "name": "รับเกียรติบัตรผลการเรียนยอดเยี่ยม ปีการศึกษา 2564 โดยทำระดับผลการเรียนเฉลี่ยประจำปีได้ 4.00",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
-    "year": "2022-08-16T17:00:00.000Z",
-    "startdate": "2022-08-16T17:00:00.000Z",
+    "startDate": "17/08/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsNReBzdg14GOn5K6Q?e=eb3wDi",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 36,
@@ -429,34 +394,31 @@
     "name": "กิจกรรม Basic IoT Workshop",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
     "score": "ระดับ Excellent",
-    "year": "2022-08-26T17:00:00.000Z",
-    "startdate": "2022-08-26T17:00:00.000Z",
+    "startDate": "27/08/2022",
     "detail": "เนื่องในกิจกรรม K-Engineering World Tour and Workshop 2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ip7Ndlzm6iqzxe12kXA?e=alyMhH",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 37,
     "categories": "Other",
     "name": "กิจกรรมเยี่ยมชม K-Engineering World Tour and Workshop 2022",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "year": "2022-08-26T17:00:00.000Z",
-    "startdate": "2022-08-26T17:00:00.000Z",
+    "startDate": "27/08/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IpPA0K-_AJwDrEnktiQ?e=PoNfHh",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 38,
     "categories": "Computer",
     "name": "กิจกรรม Data camp in Wonderland (ค่ายวิทยาศาสตร์ข้อมูล ครั้งที่ 2)",
     "organizer": "สาขาวิทยาศาสตร์และนวัตกรรมข้อมูล วิทยาลัยสหวิทยาการ มหาวิทยาลัยธรรมศาสตร์",
-    "year": "2022-10-07T17:00:00.000Z",
-    "startdate": "2022-10-07T17:00:00.000Z",
+    "startDate": "08/10/2022",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0Ip75Fiuwdw4bw3U459A?e=rVBX10",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 39,
@@ -464,11 +426,10 @@
     "name": "DevLab 3 Open Access Program",
     "organizer": "BornToDev",
     "score": "อันดับ 406 จากทั้งหมด 15624 คน",
-    "year": "2022-10-20T17:00:00.000Z",
-    "startdate": "2022-10-20T17:00:00.000Z",
+    "startDate": "21/10/2022",
     "detail": "เขียนโปรแกรมภาษา python เพื่อแก้โจทย์ปัญหา ในชื่อ username \"piinxlluna\"",
     "certificate": "https://1drv.ms/u/s!Au-TIaKIDl0IqsAWgJbqMwH7fabqgw?e=h8fRH8",
-    "ishighlight": false,
-    "ishide": false
+    "isHighlight": false,
+    "isHide": false
   }
 ]
