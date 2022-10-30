@@ -18,7 +18,7 @@ function activitiesVolunteer() {
 
   return (
     <div>
-      <h1>ด้านจิตอาสา</h1>
+      <h1>กิจกรรมด้านจิตอาสา</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
           <>

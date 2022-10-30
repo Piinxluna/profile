@@ -17,7 +17,7 @@ function activitiesOthers() {
 
   return (
     <div>
-      <h1>ด้านอื่นๆ</h1>
+      <h1>กิจกรรมด้านอื่นๆ</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
           <>

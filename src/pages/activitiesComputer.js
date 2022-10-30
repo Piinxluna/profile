@@ -17,7 +17,7 @@ function activitiesComputer() {
 
   return (
     <div>
-      <h1>ด้านคอมพิวเตอร์</h1>
+      <h1>กิจกรรมด้านคอมพิวเตอร์</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
           <>

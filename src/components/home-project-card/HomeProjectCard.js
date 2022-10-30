@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 function HomeProjectCard(props) {
   const { detail } = props;
   return (
-    <div className="ProjectCard">
+    <div className="home-ProjectCard">
       <img src={detail.images} alt={detail.name}></img>
       <h4>{detail.name}</h4>
       {!!detail.purpose && <p>สำหรับ{detail.purpose}</p>}

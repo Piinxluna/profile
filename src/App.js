@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
@@ -8,6 +9,7 @@ import ActivitiesVolunteer from "./pages/activitiesVolunteer";
 import ActivitiesOthers from "./pages/activitiesOthers";
 import Projects from "./pages/projects";
 import Hobbies from "./pages/hobbies";
+import HobbiesDrawing from "./pages/hobbiesDrawing";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/activities/others" element={<ActivitiesOthers />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/hobbies/drawing" element={<HobbiesDrawing />} />
       </Routes>
     </Router>
   );
