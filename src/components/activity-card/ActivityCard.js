@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 function ActivityCard(props) {
   const { detail } = props;
   return (
-    <div className="ActivityCard">
+    <div className="activity-card">
       <h3>{detail.name}</h3>
       {!!detail.award && <h4>ได้รับรางวัล{detail.award}</h4>}
       {!!detail.score && <h4>ได้{detail.score}</h4>}

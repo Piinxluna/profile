@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 4fr;
 }
 
-.home-hobbies-grid {
+.home-hobbies .home-hobbies-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 16px;
@@ -11,4 +11,9 @@
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.home-hobbies h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
 }

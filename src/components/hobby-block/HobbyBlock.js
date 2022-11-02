@@ -11,7 +11,7 @@ function HobbyBlock(props) {
   const { detail } = props;
 
   return (
-    <div className="HobbyBlock">
+    <div className="hobby-block">
       <div className="icon">
         {detail.title === "เล่นเกม" && <IoGameController />}
         {detail.title === "อ่านนิยาย" && <ImBook />}

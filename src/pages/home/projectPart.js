@@ -1,20 +1,40 @@
 import React from "react";
 import "./projectPart.css";
-import ProjectCard from "./../../components/home-project-card/HomeProjectCard";
 import projects from "./../../data/projects.json";
 
+import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
+
 const ProjectPart = () => {
-  const projectElements = projects.map((project, index) => {
-    if (project.ishighlight === true) {
-      return <ProjectCard key={index} detail={project} />;
-    }
-    return null;
-  });
   return (
-    <div className="home-projects">
+    <Container className="home-projects">
       <h3>โครงงาน</h3>
-      <div className="home-projects-grid">{projectElements}</div>
-    </div>
+
+      <Carousel>
+        {projects.map((project, index) => {
+          if (project.ishighlight === true) {
+            return (
+              <Carousel.Item key={index} className="my-carousel">
+                <img
+                  className="d-block w-100"
+                  src="https://images.pexels.com/photos/2663851/pexels-photo-2663851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  // src={project.coverImage}
+                  alt={project.name}
+                />
+                <Carousel.Caption>
+                  <h3>{project.name}</h3>
+                  {!!project.purpose && <p>สำหรับ{project.purpose}</p>}
+                  <p class="d-none d-md-block">{project.description}</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+          }
+          return null;
+        })}
+      </Carousel>
+
+      {/* <div className="home-projects-grid">{projectElements}</div> */}
+    </Container>
   );
 };
 

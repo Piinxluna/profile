@@ -1,9 +1,14 @@
-.home-projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 16px;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+.home-projects {
+  padding: 16px;
+}
+
+.home-projects h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.home-projects .my-carousel {
+  border-radius: 1rem !important;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.16),
+    0 10px 20px -2px rgba(0, 0, 0, 0.1) !important;
 }

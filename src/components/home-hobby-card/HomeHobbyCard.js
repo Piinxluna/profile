@@ -11,7 +11,7 @@ function HomeHobbyCard(props) {
   const { detail } = props;
 
   return (
-    <div className="HobbyCard">
+    <div className="hobby-card">
       <div className="icon">
         {detail.title === "เล่นเกม" && <IoGameController />}
         {detail.title === "อ่านนิยาย" && <ImBook />}

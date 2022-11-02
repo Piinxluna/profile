@@ -1,9 +1,8 @@
-.home-activities-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 16px;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+.home-activities {
+  padding: 16px;
+}
+
+.home-activities h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
 }

@@ -2,6 +2,9 @@ import React from "react";
 import "./activityPart.css";
 import ActivityTypeCard from "../../components/home-activity-type-card/HomeActivityTypeCard";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+
 const activityTypes = [
   {
     title: "ด้านคอมพิวเตอร์",
@@ -28,10 +31,13 @@ const ActivityPart = () => {
     return <ActivityTypeCard key={index} detail={activityType} />;
   });
   return (
-    <div className="home-activities">
+    <Container className="home-activities">
       <h3>ผลงานและกิจกรรมที่เคยทำ</h3>
-      <div className="home-activities-grid">{activityTypeElements}</div>
-    </div>
+      {/* <div className="home-activities-grid">{activityTypeElements}</div> */}
+      <Row xs={1} md={3} className="g-4">
+        {activityTypeElements}
+      </Row>
+    </Container>
   );
 };
 

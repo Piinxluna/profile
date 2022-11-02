@@ -4,6 +4,7 @@
   top: 67px;
   list-style: none;
   text-align: start;
+  padding-left: 0;
 }
 
 .activity-submenu li {

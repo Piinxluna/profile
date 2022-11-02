@@ -1,18 +1,25 @@
 import "./HomeActivityTypeCard.css";
 import { FaArrowRight } from "react-icons/fa";
 
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+
 function HomeActivityType(props) {
   const { detail } = props;
   return (
-    <div className="ActivityTypeCard">
-      <img src={detail.thumbnailUrl} alt="type"></img>
-      <h4>{detail.title}</h4>
-      <a href={`/profile/activities/${detail.link}`}>
-        <button>
-          ดูผลงาน <FaArrowRight />
-        </button>
-      </a>
-    </div>
+    // <Col sm={4}>
+    <Col>
+      <Card className="home-activity-type-card text-center">
+        <Card.Img variant="top" src={detail.thumbnailUrl} />
+        <Card.Body>
+          <Card.Title>{detail.title}</Card.Title>
+          <Button href={`/profile/activities/${detail.link}`} variant="purple">
+            ดูผลงาน <FaArrowRight />
+          </Button>
+        </Card.Body>
+      </Card>
+    </Col>
   );
 }
 

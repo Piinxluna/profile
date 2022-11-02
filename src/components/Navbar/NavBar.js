@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar d-flex align-items-stretch">
         <ul className="nav-items">
           {navItems.map((item) => {
             if (item.title === "Activities") {
