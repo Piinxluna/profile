@@ -60,7 +60,8 @@ function PersonalInfoPart() {
 
       <Image
         id="home-profile-pic"
-        src={require("./../../imagesForTest/test1.jpg")}
+        // src={require("./../../imagesForTest/test1.jpg")}
+        src="images/Pingping01.jpg"
         alt="Chanya's Profile"
         roundedCircle={true}
       />
