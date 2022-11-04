@@ -7,12 +7,14 @@ import { ImBook } from "react-icons/im";
 import { MdDraw } from "react-icons/md";
 import { GiMusicalNotes } from "react-icons/gi";
 
+import Col from "react-bootstrap/Col";
+
 function HomeHobbyCard(props) {
   const { detail } = props;
 
   return (
-    <div className="hobby-card">
-      <div className="icon">
+    <Col className="hobby-card mb-3 mr-3 shadow-sm">
+      <div className="icon fs-3 mb-2">
         {detail.title === "เล่นเกม" && <IoGameController />}
         {detail.title === "อ่านนิยาย" && <ImBook />}
         {detail.title === "วาดรูป" && <MdDraw />}
@@ -27,7 +29,7 @@ function HomeHobbyCard(props) {
           ดูผลงานเพิ่มเติม <FaArrowRight />
         </a>
       )}
-    </div>
+    </Col>
   );
 }
 

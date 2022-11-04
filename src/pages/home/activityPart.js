@@ -32,9 +32,8 @@ const ActivityPart = () => {
   });
   return (
     <Container className="home-activities">
-      <h3>ผลงานและกิจกรรมที่เคยทำ</h3>
-      {/* <div className="home-activities-grid">{activityTypeElements}</div> */}
-      <Row xs={1} md={3} className="g-4">
+      <h3 className="my-4 pl-md-4">ผลงานและกิจกรรมที่เคยทำ</h3>
+      <Row xs={1} md={3}>
         {activityTypeElements}
       </Row>
     </Container>

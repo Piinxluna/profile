@@ -6,14 +6,7 @@
   margin: 2rem;
 }
 
-.home-personal-info .contact {
-  margin: 2rem;
-}
-
-.home-personal-info .btn {
-  margin-right: 8px;
-}
-
-.home-personal-info #home-profile-pic {
-  width: 50%;
+.home-personal-info .icon {
+  margin: 3px 0;
+  font-size: larger;
 }

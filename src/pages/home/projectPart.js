@@ -8,7 +8,7 @@ import Carousel from "react-bootstrap/Carousel";
 const ProjectPart = () => {
   return (
     <Container className="home-projects">
-      <h3>โครงงาน</h3>
+      <h3 className="my-4 pl-md-4">โครงงาน</h3>
 
       <Carousel>
         {projects.map((project, index) => {
@@ -24,7 +24,7 @@ const ProjectPart = () => {
                 <Carousel.Caption>
                   <h3>{project.name}</h3>
                   {!!project.purpose && <p>สำหรับ{project.purpose}</p>}
-                  <p class="d-none d-md-block">{project.description}</p>
+                  <p className="d-none d-md-block">{project.description}</p>
                 </Carousel.Caption>
               </Carousel.Item>
             );

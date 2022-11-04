@@ -1,5 +1,5 @@
 .hobby-card {
-  width: 400px;
+  min-width: 400px;
   border: 2px solid black;
   border-radius: 16px;
   padding: 32px;

@@ -14,7 +14,7 @@ function HomeActivityType(props) {
         <Card.Img variant="top" src={detail.thumbnailUrl} />
         <Card.Body>
           <Card.Title>{detail.title}</Card.Title>
-          <Button href={`/profile/activities/${detail.link}`} variant="purple">
+          <Button href={`/profile/activities/${detail.link}`} variant="primary">
             ดูผลงาน <FaArrowRight />
           </Button>
         </Card.Body>

@@ -5,6 +5,8 @@ import ActivityYearList from "../components/activity-year-list/ActivityYearList"
 import getDataByCategory from "../services/utils/getDataByCategory";
 import getDataByYear from "../services/utils/getDataByYear";
 
+export const Context = React.createContext();
+
 function activitiesComputer() {
   const computerActivities = getDataByCategory(activities, "Computer");
   const activitiesIn2020 = getDataByYear(computerActivities, 2020);

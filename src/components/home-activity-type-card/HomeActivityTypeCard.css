@@ -15,11 +15,11 @@
 
 .home-activity-type-card .btn {
   width: 80%;
-  background-color: purple;
-  color: white;
+  /* background-color: purple;
+  color: white; */
 }
 .home-activity-type-card .btn:hover {
   background-color: white;
   color: black;
-  border: black;
+  border: black 1px solid;
 }
