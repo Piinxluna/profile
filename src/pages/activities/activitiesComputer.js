@@ -1,13 +1,18 @@
 import React from "react";
 // import "./activities.css";
-import activities from "./../data/activities.json";
-import ActivityYearList from "../components/activity-year-list/ActivityYearList";
-import getDataByCategory from "../services/utils/getDataByCategory";
-import getDataByYear from "../services/utils/getDataByYear";
+import activities from "./../../Data/activities.json";
+import ActivityYearList from "./../../components/activity-year-list/ActivityYearList";
+import getDataByCategory from "./../../services/utils/getDataByCategory";
+import getDataByYear from "./../../services/utils/getDataByYear";
 
-export const Context = React.createContext();
+import ActivityModal from "../../components/activity-modal/ActivityModal";
 
-function activitiesComputer() {
+import Button from "react-bootstrap/Button";
+
+// export const Context = React.createContext();
+
+function ActivitiesComputer() {
+  const [modalShow, setModalShow] = React.useState(false);
   const computerActivities = getDataByCategory(activities, "Computer");
   const activitiesIn2020 = getDataByYear(computerActivities, 2020);
   const activitiesIn2021 = getDataByYear(computerActivities, 2021);
@@ -19,6 +24,13 @@ function activitiesComputer() {
 
   return (
     <div>
+      <div id="test-modal">
+        <Button variant="primary" onClick={() => setModalShow(true)}>
+          Launch vertically centered modal
+        </Button>
+        <ActivityModal show={modalShow} onHide={() => setModalShow(false)} />
+      </div>
+
       <h1>กิจกรรมด้านคอมพิวเตอร์</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
@@ -43,4 +55,4 @@ function activitiesComputer() {
   );
 }
 
-export default activitiesComputer;
+export default ActivitiesComputer;

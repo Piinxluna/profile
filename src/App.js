@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/NavBar";
+import Navbar from "./components/Navbar/NavBar2";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-import ActivitiesComputer from "./pages/activitiesComputer";
-import ActivitiesVolunteer from "./pages/activitiesVolunteer";
-import ActivitiesOthers from "./pages/activitiesOthers";
+import ActivitiesComputer from "./pages/activities/activitiesComputer";
+import ActivitiesVolunteer from "./pages/activities/activitiesVolunteer";
+import ActivitiesOthers from "./pages/activities/activitiesOthers";
 import Projects from "./pages/projects";
 import Hobbies from "./pages/hobbies";
 import HobbiesDrawing from "./pages/hobbiesDrawing";

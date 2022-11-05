@@ -1,24 +1,23 @@
 import React from "react";
 // import "./activities.css";
-import activities from "./../data/activities.json";
-import ActivityYearList from "../components/activity-year-list/ActivityYearList";
-import getDataByCategory from "../services/utils/getDataByCategory";
-import getDataByYear from "../services/utils/getDataByYear";
+import activities from "./../../Data/activities.json";
+import ActivityYearList from "../../components/activity-year-list/ActivityYearList";
+import getDataByCategory from "../../services/utils/getDataByCategory";
+import getDataByYear from "../../services/utils/getDataByYear";
 
-function activitiesVolunteer() {
-  const volunteerActivities = getDataByCategory(activities, "Volunteer");
-  const activitiesIn2020 = getDataByYear(volunteerActivities, 2020);
-  const activitiesIn2021 = getDataByYear(volunteerActivities, 2021);
-  const activitiesIn2022 = getDataByYear(volunteerActivities, 2022);
+function activitiesOthers() {
+  const othersActivities = getDataByCategory(activities, "Others");
+  const activitiesIn2020 = getDataByYear(othersActivities, 2020);
+  const activitiesIn2021 = getDataByYear(othersActivities, 2021);
+  const activitiesIn2022 = getDataByYear(othersActivities, 2022);
 
   // console.log("2020 Activities :", activitiesIn2020);
-  // console.log("2020 Activities :", activitiesIn2020.length === 0);
   // console.log("2021 Activities :", activitiesIn2021);
   // console.log("2022 Activities :", activitiesIn2022);
 
   return (
     <div>
-      <h1>กิจกรรมด้านจิตอาสา</h1>
+      <h1>กิจกรรมด้านอื่นๆ</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
           <>
@@ -42,4 +41,4 @@ function activitiesVolunteer() {
   );
 }
 
-export default activitiesVolunteer;
+export default activitiesOthers;

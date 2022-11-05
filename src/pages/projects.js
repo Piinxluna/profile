@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import ProjectCard from "./../components/project-card/ProjectCard";
-import projects from "./../data/projects.json";
+import projects from "./../Data/projects.json";
 
 const Projects = () => {
   const projectElements = projects.map((project, index) => {

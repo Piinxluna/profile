@@ -1,6 +1,6 @@
 import React from "react";
 import "./projectPart.css";
-import projects from "./../../data/projects.json";
+import projects from "./../../Data/projects.json";
 
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
@@ -10,11 +10,12 @@ const ProjectPart = () => {
     <Container className="home-projects">
       <h3 className="my-4 pl-md-4">โครงงาน</h3>
 
+      {/* <Carousel className="my-carousel"> */}
       <Carousel>
         {projects.map((project, index) => {
           if (project.ishighlight === true) {
             return (
-              <Carousel.Item key={index} className="my-carousel">
+              <Carousel.Item key={index}>
                 <img
                   className="d-block w-100"
                   src="https://images.pexels.com/photos/2663851/pexels-photo-2663851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

@@ -1,5 +1,5 @@
 import React from "react";
-import hobbies from "./../data/hobbies.json";
+import hobbies from "./../Data/hobbies.json";
 import HobbiesBlock from "../components/hobby-block/HobbyBlock";
 
 const Hobbies = () => {
