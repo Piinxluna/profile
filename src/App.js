@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/NavBar2";
+import Navbar from "./components/Navbar/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import ActivitiesComputer from "./pages/activities/activitiesComputer";
@@ -12,7 +12,8 @@ import HobbiesDrawing from "./pages/hobbiesDrawing";
 
 function App() {
   return (
-    <Router basename="/profile">
+    <Router>
+      {/* <Router basename="/profile"> */}
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />

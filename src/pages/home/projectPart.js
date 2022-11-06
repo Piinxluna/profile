@@ -1,6 +1,6 @@
 import React from "react";
 import "./projectPart.css";
-import projects from "./../../Data/projects.json";
+import projects from "./../../data/projects.json";
 
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";

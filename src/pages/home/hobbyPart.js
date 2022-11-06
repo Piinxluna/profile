@@ -1,7 +1,7 @@
 import React from "react";
 import "./hobbyPart.css";
 import HobbyCard from "./../../components/home-hobby-card/HomeHobbyCard";
-import hobbies from "./../../Data/hobbies.json";
+import hobbies from "./../../data/hobbies.json";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

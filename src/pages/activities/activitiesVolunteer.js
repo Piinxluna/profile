@@ -1,9 +1,11 @@
 import React from "react";
 // import "./activities.css";
-import activities from "./../../Data/activities.json";
+import activities from "./../../data/activities.json";
 import ActivityYearList from "../../components/activity-year-list/ActivityYearList";
 import getDataByCategory from "../../services/utils/getDataByCategory";
 import getDataByYear from "../../services/utils/getDataByYear";
+
+import Container from "react-bootstrap/Container";
 
 function activitiesVolunteer() {
   const volunteerActivities = getDataByCategory(activities, "Volunteer");
@@ -17,8 +19,8 @@ function activitiesVolunteer() {
   // console.log("2022 Activities :", activitiesIn2022);
 
   return (
-    <div>
-      <h1>กิจกรรมด้านจิตอาสา</h1>
+    <Container className="activities-volunteer pt-3">
+      <h1 className="m-4">กิจกรรมด้านจิตอาสา</h1>
       <div className="activities-grid">
         {activitiesIn2020.length !== 0 && (
           <>
@@ -38,7 +40,7 @@ function activitiesVolunteer() {
           </>
         )}
       </div>
-    </div>
+    </Container>
   );
 }
 

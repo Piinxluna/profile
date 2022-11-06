@@ -10,7 +10,7 @@ function ActivityYearList(props) {
     return null;
   });
   return (
-    <div className="activity-year-list">
+    <div className="activity-year-list p-3">
       <h2>{props.year}</h2>
       <div className="activity-year-list-grid">{activityElements}</div>
     </div>

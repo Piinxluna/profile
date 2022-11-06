@@ -7,7 +7,7 @@ import HobbyPart from "./home/hobbyPart";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home pt-3">
       <PersonalInfoPart />
       <hr />
       <ActivityPart />
