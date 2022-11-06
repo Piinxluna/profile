@@ -12,8 +12,8 @@ import HobbiesDrawing from "./pages/hobbiesDrawing";
 
 function App() {
   return (
-    <Router>
-      {/* <Router basename="/profile"> */}
+    // <Router>
+    <Router basename="/profile">
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />

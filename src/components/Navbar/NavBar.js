@@ -4,13 +4,14 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavBar() {
+  const basename = "/profile";
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container className="justify-content-end">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="/" className="mr-3">
+            <Nav.Link href={basename + "/"} className="mr-3">
               Home
             </Nav.Link>
             <NavDropdown
@@ -18,20 +19,20 @@ function NavBar() {
               id="basic-nav-dropdown"
               className="mr-3"
             >
-              <NavDropdown.Item href="/activities/computer">
+              <NavDropdown.Item href={basename + "/activities/computer"}>
                 Computer
               </NavDropdown.Item>
-              <NavDropdown.Item href="/activities/volunteer">
+              <NavDropdown.Item href={basename + "/activities/volunteer"}>
                 Volunteer
               </NavDropdown.Item>
-              <NavDropdown.Item href="/activities/others">
+              <NavDropdown.Item href={basename + "/activities/others"}>
                 Others
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/projects" className="mr-3">
+            <Nav.Link href={basename + "/projects"} className="mr-3">
               Projects
             </Nav.Link>
-            <Nav.Link href="/hobbies" className="mr-3">
+            <Nav.Link href={basename + "/hobbies"} className="mr-3">
               Hobbies
             </Nav.Link>
           </Nav>
