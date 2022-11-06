@@ -24,9 +24,10 @@ function PersonalInfoPart() {
       <Row xs={1} md={2} className="d-flex flex-row-reverse">
         <Col className="d-flex align-items-center text-center p-5-xs">
           <Image
+            className="w-100"
             id="home-profile-pic"
-            src={require("./../../imagesForTest/test1.jpg")}
-            // src="images/Pingping01.jpg"
+            // src={require("./../../imagesForTest/test1.jpg")}
+            src="images/Pingping01.jpg"
             alt="Chanya's Profile"
             roundedCircle={true}
           />
