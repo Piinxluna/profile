@@ -2,10 +2,16 @@ import "./ActivityYearList.css";
 import ActivityCard from "./../activity-card/ActivityCard";
 
 function ActivityYearList(props) {
-  const data = props.activities;
-  const activityElements = data.map((activity, index) => {
+  const datas = props.activities;
+  const activityElements = datas.map((activity, index) => {
     if (activity.isHide === false) {
-      return <ActivityCard key={index} detail={activity} />;
+      return (
+        <ActivityCard
+          key={index}
+          detail={activity}
+          setDataFromCard={props.setDataFromCard}
+        />
+      );
     }
     return null;
   });

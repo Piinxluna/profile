@@ -10,6 +10,8 @@ import Projects from "./pages/projects";
 import Hobbies from "./pages/hobbies";
 import HobbiesDrawing from "./pages/hobbiesDrawing";
 
+import Test from "./pages/TestParent.js";
+
 function App() {
   return (
     // <Router>
@@ -17,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/test" element={<Test />} />
         <Route path="/activities/computer" element={<ActivitiesComputer />} />
         <Route path="/activities/volunteer" element={<ActivitiesVolunteer />} />
         <Route path="/activities/others" element={<ActivitiesOthers />} />

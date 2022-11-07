@@ -1,4 +1,3 @@
-import React from "react";
 // import "./ActivityCard.css";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -7,23 +6,28 @@ import Button from "react-bootstrap/Button";
 
 function ActivityCard(props) {
   const { detail } = props;
+  const dataId = detail.id;
+
   return (
     <Card className="activity-card w-75 m-4 mx-auto px-4 py-3 text-center">
       <Card.Body>
-        <Card.Title className="fs-3 mb-3">{detail.name}</Card.Title>
-        <Card.Text>
-          <p className="lh-lg">
-            จัดโดย {detail.organizer} <br /> เมื่อวันที่ {detail.startDate}
+        <Card.Title className="fs-3 mb-2">{detail.name}</Card.Title>
+        <p>จัดโดย {detail.organizer}</p>
+        {detail.endDate ? (
+          <p>
+            เมื่อวันที่ {detail.startDate} - {detail.endDate}
           </p>
-        </Card.Text>
-        <Card.Text>
-          {detail.award ? (
-            <p className="fs-5">ได้รับรางวัล{detail.award}</p>
-          ) : null}
-          {detail.score ? <p className="fs-5">ได้{detail.score}</p> : null}
-        </Card.Text>
+        ) : (
+          <p>เมื่อวันที่ {detail.startDate}</p>
+        )}
+        {detail.award ? (
+          <p className="fs-5">ได้รับรางวัล{detail.award}</p>
+        ) : null}
+        {detail.score ? <p className="fs-5">ได้{detail.score}</p> : null}
         <Button
-          href={`/profile/activities/${detail.id}`}
+          onClick={() => {
+            props.setDataFromCard(dataId);
+          }}
           variant="outline-dark"
         >
           ดูรายละเอียดเพิ่มเติม <FaArrowRight />

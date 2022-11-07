@@ -13,19 +13,19 @@ function HobbyBlock(props) {
   return (
     <div className="hobby-block">
       <div className="icon">
-        {detail.title === "เล่นเกม" && <IoGameController />}
-        {detail.title === "อ่านนิยาย" && <ImBook />}
-        {detail.title === "วาดรูป" && <MdDraw />}
-        {detail.title === "เต้นโคฟเวอร์" && <GiMusicalNotes />}
+        {detail.title === "เล่นเกม" ? <IoGameController /> : null}
+        {detail.title === "อ่านนิยาย" ? <ImBook /> : null}
+        {detail.title === "วาดรูป" ? <MdDraw /> : null}
+        {detail.title === "เต้นโคฟเวอร์" ? <GiMusicalNotes /> : null}
       </div>
 
       <h2>{detail.title}</h2>
       <p>{detail.description}</p>
-      {!!detail.moreInfo && (
+      {detail.moreInfo ? (
         <a href={`/profile/hobbies/${detail.moreInfo}`}>
           ดูผลงานเพิ่มเติม <FaArrowRight />
         </a>
-      )}
+      ) : null}
     </div>
   );
 }
