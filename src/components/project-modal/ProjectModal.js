@@ -21,14 +21,14 @@ function ActivityModal(props) {
           {focusData.purpose ? (
             <p className="fs-5">สำหรับ{focusData.purpose}</p>
           ) : null}
-          <p>{focusData.description}</p>
-          <p>{focusData.tools}</p>
+          <p>&emsp; {focusData.description}</p>
+          <p>&emsp; {focusData.tools}</p>
           {focusData.furtherDev ? (
-            <p>ในอนาคตจะพัฒนาโดย{focusData.furtherDev}</p>
+            <p>&emsp; ในอนาคตจะพัฒนาโดย{focusData.furtherDev}</p>
           ) : null}
 
           {focusData.benefit ? (
-            <p>สิ่งที่ได้จากการทำงาน : {focusData.benefit}</p>
+            <p>&emsp; สิ่งที่ได้จากการทำงาน : {focusData.benefit}</p>
           ) : null}
           {focusData.images ? (
             <div className="project-modal-img">

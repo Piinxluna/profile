@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import Modal from "react-bootstrap/Modal";
 import Image from "react-bootstrap/Image";
 
@@ -27,7 +28,7 @@ function ActivityModal(props) {
             <p>เมื่อวันที่ {focusData.startDate}</p>
           )}
           {focusData.description ? (
-            <p>เป็นกิจกรรม{focusData.description}</p>
+            <p>&emsp; เป็นกิจกรรม{focusData.description}</p>
           ) : null}
           {focusData.award ? (
             <p className="fs-5">ได้รับรางวัล{focusData.award}</p>
@@ -37,8 +38,20 @@ function ActivityModal(props) {
           ) : null}
 
           {focusData.certificate ? (
-            <div className="activity-modal-cert">
-              <hr /> <Image src={focusData.certificate} />
+            <div className="activity-modal-cert text-center">
+              <hr />
+              <h4 className="mt-4 mb-3">เกียรติบัตร</h4>
+              <Image
+                className="w-75 d-block mx-auto mb-3"
+                src={focusData.certificate}
+              />
+              <a
+                href={focusData.certificateLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                ดูภาพเต็ม <FaArrowRight />
+              </a>
             </div>
           ) : null}
 
