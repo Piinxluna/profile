@@ -38,21 +38,25 @@ function ActivityModal(props) {
           ) : null}
 
           {focusData.certificate ? (
-            <div className="activity-modal-cert text-center">
-              <hr />
-              <h4 className="mt-4 mb-3">เกียรติบัตร</h4>
-              <Image
-                className="w-75 d-block mx-auto mb-3"
-                src={focusData.certificate}
-              />
-              <a
-                href={focusData.certificateLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                ดูภาพเต็ม <FaArrowRight />
-              </a>
-            </div>
+            typeof focusData.certificate == "string" ? (
+              <div className="activity-modal-cert text-center">
+                <hr />
+                <h4 className="mt-4 mb-3">เกียรติบัตร</h4>
+                <Image
+                  className="w-75 d-block mx-auto mb-3"
+                  src={focusData.certificate}
+                />
+                <a
+                  href={focusData.certificateLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ดูภาพเต็ม <FaArrowRight />
+                </a>
+              </div>
+            ) : (
+              console.log("Not a string", typeof focusData.certificate)
+            )
           ) : null}
 
           {focusData.images ? (

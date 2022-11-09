@@ -19,6 +19,9 @@ function NavBar() {
               id="basic-nav-dropdown"
               className="mr-3"
             >
+              <NavDropdown.Item href={basename + "/activities/highlight"}>
+                Highlight
+              </NavDropdown.Item>
               <NavDropdown.Item href={basename + "/activities/computer"}>
                 Computer
               </NavDropdown.Item>

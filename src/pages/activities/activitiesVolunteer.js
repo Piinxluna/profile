@@ -2,6 +2,7 @@ import React from "react";
 // import "./activities.css";
 import activities from "./../../data/activities.json";
 import ActivityYearList from "../../components/activity-year-list/ActivityYearList";
+import getNotHideData from "../../services/utils/getNotHideData";
 import getDataByCategory from "../../services/utils/getDataByCategory";
 import getDataByYear from "../../services/utils/getDataByYear";
 import getDataById from "./../../services/utils/getDataById";
@@ -10,7 +11,8 @@ import ActivityModal from "./../../components/activity-modal/ActivityModal";
 import Container from "react-bootstrap/Container";
 
 function ActivitiesVolunteer() {
-  const volunteerActivities = getDataByCategory(activities, "Volunteer");
+  const showActivities = getNotHideData(activities);
+  const volunteerActivities = getDataByCategory(showActivities, "Volunteer");
   const activitiesIn2020 = getDataByYear(volunteerActivities, 2020);
   const activitiesIn2021 = getDataByYear(volunteerActivities, 2021);
   const activitiesIn2022 = getDataByYear(volunteerActivities, 2022);

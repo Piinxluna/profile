@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
+import ActivitiesHighlight from "./pages/activities/activitiesHighlight";
 import ActivitiesComputer from "./pages/activities/activitiesComputer";
 import ActivitiesVolunteer from "./pages/activities/activitiesVolunteer";
 import ActivitiesOthers from "./pages/activities/activitiesOthers";
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/activities/highlight" element={<ActivitiesHighlight />} />
         <Route path="/activities/computer" element={<ActivitiesComputer />} />
         <Route path="/activities/volunteer" element={<ActivitiesVolunteer />} />
         <Route path="/activities/others" element={<ActivitiesOthers />} />
