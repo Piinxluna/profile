@@ -27,7 +27,7 @@
         var segmentCount = 0;
 
         var l = window.location;
-        const nonHomeUrls = ['/Projects', '/test', '/hobbies', '/activities/highlight'];
+        const nonHomeUrls = ['/profile/Projects', '/test', '/hobbies', '/activities/highlight'];
         for (let i = 0; i < nonHomeUrls.length; i++) {
             const urlRegex = new RegExp(nonHomeUrls[i], 'i');
             const verifyUrl = urlRegex.test(l.pathname);
