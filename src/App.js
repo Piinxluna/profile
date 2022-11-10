@@ -19,13 +19,13 @@ function App() {
     <Router basename="/profile">
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />
         <Route path="/activities/highlight" element={<ActivitiesHighlight />} />
         <Route path="/activities/computer" element={<ActivitiesComputer />} />
         <Route path="/activities/volunteer" element={<ActivitiesVolunteer />} />
         <Route path="/activities/others" element={<ActivitiesOthers />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/Projects" element={<Projects />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/hobbies/drawing" element={<HobbiesDrawing />} />
       </Routes>
