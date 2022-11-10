@@ -35,7 +35,7 @@
                 l.replace(
                     l.protocol + '//' + l.hostname+'/profile/' + (l.port ? ':' + l.port : '') +
                     l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-                    l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace('/profile','').replace(/&/g, '~and~') +
+                    l.pathname.replace('/profile', '').slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
                     (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
                     l.hash
                 );
