@@ -1,10 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Mission Innovator / คณะสหวิทยาการ เทคโนโลยีและนวัตรกรรม SPU : Thelsinki",
-    "startdate": "2021-02-06T17:00:00.000Z",
-    "enddate": "2021-04-27T17:00:00.000Z",
-    "ishighlight": false
+    "name": "Thelsinki",
+    "description": "เป็นแอพลิเคชันที่ทำหน้าที่เป็นพื้นที่พักผ่อนและส่งต่อกำลังใจเพื่อให้ทุกๆ วันของผู้ใช้งานเป็นวันที่ดีมากขึ้น ซึ่งจะประกอบด้วยฟังก์ชันหลักทั้งหมด 3 อย่างคือ \n 1. พื้นที่แลกกำลังใจ ส่งต่อข้อความให้กำลังใจให้กับผู้อื่นและรับข้อความให้กำลังใจของคนอื่นที่ส่งมาหา ช่วย Made my day ให้กับวันนั้น \n 2. พื้นที่พักผ่อน พูดคุยเล่นกับแชทบอท รวมถึงสามารถระบายเรื่องไม่สบายใจต่างๆ ที่ไม่อยากบอกคนอื่นก็ได้ \n 3. พื้นที่สำหรับจดบันทึกความทรงจำต่างๆ อารมณ์ในแต่ละวัน โดยจะมีคำถาม ถามผู้ใช้ ทำให้สามารถจดบันทึกเรื่องราวในวันนั้นๆ ได้ โดยที่ไม่ต้องเขียนเรียงความยาวๆ เอง \n และมีฟังก์ชันย่อยๆ อื่นเช่น สรุปผลภาพรวมอารมณ์ของเราในแต่ละเดือน",
+    "tools": "เป็นเพียงแค่แนวคิด ยังไม่ได้ลงมือทำจริง",
+    "purpose": "ส่งเข้าประกวดรายการ Mission Innovator (จัดโดย คณะสหวิทยาการ เทคโนโลยีและนวัตรกรรม SPU)",
+    "furtherDev": "ลงมือทำจริง",
+    "moreInfo": "https://1drv.ms/u/s!Au-TIaKIDl0Iq7g_tiK27D4SpucUYQ?e=f3Krit",
+    "coverImage": "ProjectCover_Thelsinki.jpg",
+    "startDate": "07/02/2021",
+    "endDate": "28/04/2021",
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 2,
@@ -12,62 +19,119 @@
     "description": "เป็นเกมแนวสืบสวนสอบสวนที่ผู้เล่นจะได้รับบทเป็นชายคนหนึ่งที่ตกเป็นผู้ต้องสงสัยในคดีฆาตกรรมซึ่งเขาไม่ได้ทำ ดังนั้นผู้เล่นจึงต้องพยายามหาหลักฐานต่างๆ มาใช้ในการพิสูจน์ความบริสุทธิ์ของตัวเองให้ถูกต้องภายในเวลาที่กำหนด เพื่อที่จะได้รอดพ้นจากคดี",
     "tools": "พัฒนาโดยใช้โปรแกรม Unity, ภาษา C# รวมไปถึงโปรแกรม Blender และโปรแกรมอื่นๆ ร่วมด้วย",
     "purpose": "ส่งเข้าประกวด การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครั้งที่ 24 (NSC2022)",
+    "furtherDev": "1. เพิ่มเติมเนื้อเรื่องจนจบ \n 2. เพิ่มเติมหลากหลายและสมเหตุสมผลให้กับหลักฐาน \n 3. พัฒนาระบบช่องเก็บของ ให้ผู้เล่นสามารถเลือกเก็บ / ทิ้งหลักฐานได้",
     "benefit": "ได้เรียนรู้เกี่ยวกับการพัฒนาเกม ตั้งแต่การคิดและออกแบบเกม, การออกแบบด่าน, การทำโมเดล 3D, การเขียนโปรแกรม รวมไปถึงได้ฝึกการทำงานเป็นทีม, การเขียนรายงานและนำเสนอผลงาน",
-    "startdate": "2021-09-29T17:00:00.000Z",
-    "enddate": "2022-02-12T17:00:00.000Z",
-    "ishighlight": true
+    "moreInfo": "https://drive.google.com/drive/mobile/folders/1jNCy3NwRs747P103_cXFpF-ugDk-aiPD?usp=sharing",
+    "coverImage": "ProjectCover_Mystmentary.jpg",
+    "startDate": "30/09/2021",
+    "endDate": "13/02/2022",
+    "isHighlight": true,
+    "isHide": false
   },
   {
     "id": 3,
-    "name": "Kidbright Onstage / NECTEC : Arcanic Show",
-    "startdate": "2021-12-12T17:00:00.000Z",
-    "enddate": "2022-02-12T17:00:00.000Z",
-    "ishighlight": true
+    "name": "Arcanic Show",
+    "description": "เป็นโชว์ที่แสดงร่วมกับหุ่นยนต์ ที่มีเรื่องราวเกี่ยวกับผู้วิเศษที่ต้องการรวบรวมพลังและใช้จักรกลเพื่อครองโลก โดยในการแสดงใช้หุ่นยนต์ที่ควบคุมด้วยบอร์ด Kidbright จำนวน 5 ตัว โดยสื่อสารกันด้วยบลูธูท และมี 1 ในนั้นที่ใช้ Kidbright AI ในการทำ Image recognition ตรวจจับการ์ดที่ใช้เรียกพลังธาตุต่างๆ ให้หุ่นยนต์ตัวอื่นๆ ตอบสนองแตกต่างกันไปตามธาตุนั้นๆ",
+    "purpose": "ส่งเข้าประกวด การแข่งขัน Kidbright Onstage 2022",
+    "furtherDev": "1. เพิ่มจำนวนตัวหุ่นบริวาร และปรับเป็น 1 ตัวต่อ 1 ธาตุ \n 2. ปรับเปลี่ยนตัวพัดลมของตัวเอไอ เพราะตอนนี้ยังทำงานได้ไม่ดีเท่าที่ควร \n 3. ปรับเปลี่ยนรูปร่างหน้าตาของตัวหุ่นและฉากให้มีความสวยงามและเพื่อให้ช่วยส่งเสริมการแสดงมากขึ้น",
+    "moreInfo": "https://1drv.ms/v/s!Au-TIaKIDl0Iq7hAu2ZxgTSuNjyYcg?e=B2jKq2",
+    "coverImage": "ProjectCover_ArcanicShow.jpg",
+    "startDate": "13/12/2021",
+    "endDate": "13/02/2022",
+    "isHighlight": true,
+    "isHide": false
   },
   {
     "id": 4,
-    "name": "SPSM : Truck Manager",
+    "name": "Truck Manager",
     "description": "ผลงานแบ่งเป็น 2 ส่วน ได้แก่ \n - Static Page สำหรับแนะนำข้อมูลเบื้องต้นของบริษัท โดยสามารถเข้าดูได้ที่ www.sisgas.com \n - ระบบสำหรับการบริหารการขนส่งก๊าซอุตสาหกรรม ที่ใช้ในการเก็บ, จัดเรียงข้อมูล, วางแผนการจัดส่งและรายงานผลการจัดส่งก๊าซ ซึ่งพัฒนาแบบ Full Stack",
-    "tools": "- Static Page พัฒนาด้วยใช้ภาษา HTML และ CSS \n - ระบบสำหรับการบริหารการขนส่งก๊าซอุตสาหกรรม พัฒนาด้วย Angular.js, Node.js, Nest.js, MySQL โดยใช้ Github, Postman, Figma และ Trello ร่วมด้วย",
+    "tools": "การพัฒนาใช้เครื่องมือได้แก่ \n - Static Page พัฒนาด้วยใช้ภาษา HTML และ CSS \n - ระบบสำหรับการบริหารการขนส่งก๊าซอุตสาหกรรม พัฒนาด้วย Angular.js, Node.js, Nest.js, MySQL โดยใช้ Github, Postman, Figma และ Trello ร่วมด้วย",
     "purpose": "เป็นโครงงานในเกณฑ์จบระดับชั้นมัธยมศึกษาตอนปลาย",
+    "furtherDev": "1. นำไปทดลองใช้จริงและนำความคิดเห็นของผู้ใช้มาปรับปรุง \n 2. ปรับปรุงฟังก์ชันที่มีอยู่ให้ดียิ่งขึ้น \n 3. ทำให้หน้าตาสวยงามและใช้งานง่ายมากยิ่งขึ้น",
     "benefit": "ได้เรียนรู้เกี่ยวกับการพัฒนาเว็ปไซต์, การพัฒนาเว็ปแอพลิเคชั่นแบบ Full Stack นอกจากนี้ยังได้เรียนรู้เกี่ยวกับการทำงานในสถานการณ์จริง, ได้ผึกใช้งาน Github และได้ฝึกการทำงานเป็นทีม ด้วยการทำงานแบบ Agile Methodology และการทำงานแบบ Scrum",
-    "startdate": "2022-03-26T17:00:00.000Z",
-    "ishighlight": true
+    "moreInfo": "https://www.canva.com/design/DAFKBqsrgLg/8nrXNYVDz83St0WUb6uTwA/view?utm_content=DAFKBqsrgLg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    "coverImage": "ProjectCover_TruckManager.jpg",
+    "startDate": "27/03/2022",
+    "isHighlight": true,
+    "isHide": false
   },
   {
     "id": 5,
-    "name": "To Be IT’66 / KMITL : Smart Plant Pot",
-    "startdate": "2022-06-17T17:00:00.000Z",
-    "enddate": "2022-06-25T17:00:00.000Z",
-    "ishighlight": false
+    "name": "Smart Plant Pot",
+    "tools": "พัฒนาด้วยบอร์ด Arduino ESP8266 เชื่อมต่อกับ Firebase และใช้ Botnoi Platform ในการพัฒนา Chatbot",
+    "purpose": "เป็นโครงงานที่ทำระหว่างเข้าร่วมค่าย To Be IT'66 (จัดโดย คณะเทคโนโลยีสารสนเทศ KMITL)",
+    "moreInfo": "https://1drv.ms/b/s!Au-TIaKIDl0Iot19FChGOlfhJIVjbw?e=BBKza7",
+    "coverImage": "ProjectCover_SmartPlantPot.jpg",
+    "startDate": "18/06/2022",
+    "endDate": "26/06/2022",
+    "isHighlight": false,
+    "isHide": false
   },
   {
     "id": 6,
     "name": "Web portfolio",
     "description": "เป็นเว็ปไซต์ส่วนตัวที่รวบรวมผลงาน กิจกรรมและโปรเจ็กต์ที่เคยทำของฉัน เพื่อสำหรับใส่ข้อมูลเพิ่มเติมจากในเล่ม portfolio รวมถึงเพื่อฝึกทักษะการพัฒนาเว็ปไซต์อีกด้วย",
-    "tools": "พัฒนาโดยใช้ react ภาษา html, css, js โดยใช้เครื่องมืออื่นๆ เช่น photoshop, figma ร่วมด้วย",
-    "startdate": "2022-07-05T17:00:00.000Z",
-    "ishighlight": true
+    "tools": "พัฒนาโดยใช้ react, bootstrap, ภาษา html, css, js โดยใช้เครื่องมืออื่นๆ เช่น photoshop, figma ร่วมด้วย",
+    "furtherDev": "1. ปรับแต่งให้มีความสวยงามมากยิ่งขึ้น \n 2. เขียน API เพื่อเรียกข้อมูลจาก Google sheet โดยตรง ไม่ต้องสร้างไฟล์ .json ด้วยตัวเอง \n 3. ในหน้า Activity & Project ทำฟังก์ชันให้สามารถเสิร์ชได้และสามารถใส่แท็กให้แต่ละอันได้",
+    "benefit": "ได้เรียนรู้เกี่ยวกับการพัฒนาเว็บไซต์ด้วย React & การ Hosting เว็บไซต์ด้วย github, ได้เรียนรู้การใช้งาน Bootstrap และได้ฝึกทักษะในการสืบค้นข้อมูลสำหรับทำงานด้วยตัวเองอีกด้วย",
+    "moreInfo": "https://piinxluna.github.io/profile/",
+    "coverImage": "ProjectCover_WebPortfolio.jpg",
+    "startDate": "02/10/2022",
+    "isHighlight": true,
+    "isHide": false
   },
   {
     "id": 7,
-    "name": "Punpun’s : Horwang Sportyard Line Bot",
+    "name": "Sportyard Line Bot",
     "description": "เป็น Line Chatbot สำหรับให้นักเรียนใช้ในการจองสนามกีฬาของโรงเรียน โดยเชื่อมกับ Google sheet เพื่อเก็บข้อมูลการจองสนามกีฬาประเภทต่างๆ ",
-    "tools": "พัฒนาโดยใช้ Botnoi สำหรับการพัฒนา Chatbot และ App script ในการเขียน api เชื่อมต่อกับ Google sheet",
-    "startdate": "2022-08-20T17:00:00.000Z",
-    "enddate": "2022-09-01T17:00:00.000Z",
-    "ishighlight": true
+    "tools": "พัฒนาโดยใช้ Botnoi Platform สำหรับการพัฒนา Chatbot และ App script ในการเขียน api เชื่อมต่อกับ Google sheet",
+    "furtherDev": "เพิ่มระบบยกเลิกการจอง, ระบบตรวจสอบการจองที่ผู้ใช้งานได้จองไว้, ระบบแจ้งเตือนเมื่อถึงเวลาที่จอง และเพิ่มเติมระบบที่ให้ผุชู้ใช้สามารถหาเพื่อนเล่นกีฬาได้",
+    "benefit": "ได้เรียนรู้เกี่ยวกับการพัฒนาแชทบอท, การใช้งาน API และการเขียน API เชื่อมต่อกับ Google sheet เพื่อตรวจสอบและแก้ไขข้อมูลในตาราง",
+    "coverImage": "ProjectCover_SportyardLineBot.jpg",
+    "startDate": "21/08/2022",
+    "endDate": "02/09/2022",
+    "isHighlight": true,
+    "isHide": false
   },
   {
     "id": 8,
-    "name": "JWC 12 : Octopus Fortune Webpage",
-    "ishighlight": false
+    "name": "Octopus Fortune",
+    "description": "เป็นการทำเว็บไซต์จากตัวอย่างโจทย์ที่มีมาให้",
+    "tools": "HTML, CSS ,JavaScript",
+    "purpose": "สำหรับส่งในการคัดเลือกค่าย JWC ครั้งที่ 12",
+    "moreInfo": "https://piinxluna.github.io/JWC12_octopus-fortune/",
+    "coverImage": "ProjectCover_OctopusFortune.jpg",
+    "startDate": "20/06/2022",
+    "endDate": "23/06/2022",
+    "isHighlight": false,
+    "isHide": true
   },
   {
     "id": 9,
-    "name": "itcamp 18",
-    "startdate": "2022-07-13T17:00:00.000Z",
-    "enddate": "2022-07-16T17:00:00.000Z",
-    "ishighlight": false
+    "name": "Network Project",
+    "purpose": "เป็นโครงงานที่ทำระหว่างเข้าร่วมค่าย IT Camp ครั้งที่ 18 (จัดโดย คณะเทคโนโลยีสารสนเทศ KMITL)",
+    "coverImage": "ProjectCover_NetworkProject.jpg",
+    "startDate": "14/07/2022",
+    "endDate": "17/07/2022",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 10,
+    "name": "Survive the night",
+    "description": "เป็นเว็ปไซต์เกี่ยวกับเกม Blockman Go (ธีมของการแข่งขัน) ประกอบไปด้วยข้อมูลเกี่ยวกับเกมและมินิเกมชื่อ Survive the night \n ในเกม Survive the night มีเนื้อเรื่องเกี่ยวกับโลกที่ถูกซอมบี้บุก เราที่แอบอยู่ในบ้านก็กำลังโดนซอมบี้พยายามจะบุกบ้านเข้ามา ต้องเอาตัวรอดผ่านแต่ละคืนด้วยการทายคำศัพท์ให้ถูกต้อง เอาตัวรอดให้ได้นานพอที่ซอมบี้จะหายไป \n โดยมีลักษณะวิธีการเล่นเกมเหมือนกับ Hangman แต่แบ่งเป็นหลายๆ ด่าน (ใน 1 ด่านมี 1 คำ และถือว่าเป็น 1 คืนในเนื้อเรื่อง)",
+    "tools": "HTML, CSS ,JavaScript",
+    "purpose": "ส่งเข้าร่วมประกวดทำเว็ปไซต์รายการ Gamer to coder (จัดโดยบริษัท Garena)",
+    "furtherDev": "1. หาวิธีในการทำ encrypt ข้อมูล เพื่อป้องกันการโกงจากการมาดูคำตอบใน code \n 2. เพิ่มคำศัพท์ (ให้ใน 1 เลเวลมีคำมากกว่าจำนวนวัน) และเพิ่มฟังก์ชันเกี่ยวกับการแปลคำศัพท์ ช่วยให้ผู้เล่นได้เรียนรู้คำศัพท์นั้นๆ \n 3. เพิ่ม event เหตุการณ์ (เนื้อเรื่อง) / ความสามารถให้กับตัวละครหลัก สร้างความหลากหลายและความตื่นเต้นให้กับการเล่น",
+    "benefit": "ได้ฝึกฝนทักษะการเขียนโปรแกรมภาษา HTML, CSS, JavaScript รวมถึงได้เรียนรู้การทำงานภายใต้เวลาที่จำกัด, ฝึกทักษะการทำงานร่วมกับผู้อื่นและการสืบค้นข้อมูล",
+    "moreInfo": "https://ltrlf.github.io/Gamer-to-Coder/",
+    "coverImage": "ProjectCover_SurviveTheNight.jpg",
+    "startDate": "26/10/2022",
+    "endDate": "31/10/2022",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "name": "การบ้านที่รร "
   }
 ]

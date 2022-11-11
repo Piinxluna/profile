@@ -18,7 +18,7 @@ const ProjectPart = () => {
               <Carousel.Item key={index}>
                 <img
                   className="d-block w-100"
-                  src="https://images.pexels.com/photos/2663851/pexels-photo-2663851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src={"/images/" + project.coverImage}
                   // src={project.coverImage}
                   alt={project.name}
                 />
