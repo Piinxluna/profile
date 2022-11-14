@@ -26,6 +26,7 @@ function ActivityCard(props) {
         {detail.score ? <p className="fs-5">ได้{detail.score}</p> : null}
         <Button
           onClick={() => {
+            // console.log("set Data From Card to", dataId);
             props.setDataFromCard(dataId);
           }}
           variant="outline-dark"

@@ -9,23 +9,27 @@ const ProjectPart = () => {
   return (
     <Container className="home-projects">
       <h3 className="my-4 pl-md-4">โครงงาน</h3>
-
       {/* <Carousel className="my-carousel"> */}
-      <Carousel>
+      <Carousel slide={false} variant="dark">
         {projects.map((project, index) => {
-          if (project.ishighlight === true) {
+          if (project.isHighlight === true) {
+            console.log(project.coverImage);
             return (
               <Carousel.Item key={index}>
                 <img
-                  className="d-block w-100"
-                  src={"/images/" + project.coverImage}
-                  // src={project.coverImage}
+                  className="d-block w-100 d-none d-md-block img-gradient"
+                  src={project.coverImage}
                   alt={project.name}
                 />
-                <Carousel.Caption>
-                  <h3>{project.name}</h3>
-                  {!!project.purpose && <p>สำหรับ{project.purpose}</p>}
-                  <p className="d-none d-md-block">{project.description}</p>
+                <img
+                  className="d-block w-100 d-md-none"
+                  src={project.coverImage}
+                  alt={project.name}
+                />
+                <Carousel.Caption className="d-none d-md-block">
+                  <h3 className="fw-600">{project.name}</h3>
+                  {!!project.purpose && <h5>สำหรับ{project.purpose}</h5>}
+                  <p className="fw-600">{project.description}</p>
                 </Carousel.Caption>
               </Carousel.Item>
             );

@@ -15,10 +15,10 @@ function ActivityModal(props) {
         aria-labelledby="example-custom-modal-styling-title"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="px-4" closeButton>
           <Modal.Title>{focusData.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="px-4">
           <p className="fs-5">จัดโดย {focusData.organizer}</p>
           {focusData.endDate ? (
             <p>
@@ -38,25 +38,21 @@ function ActivityModal(props) {
           ) : null}
 
           {focusData.certificate ? (
-            typeof focusData.certificate == "string" ? (
-              <div className="activity-modal-cert text-center">
-                <hr />
-                <h4 className="mt-4 mb-3">เกียรติบัตร</h4>
-                <Image
-                  className="w-75 d-block mx-auto mb-3"
-                  src={focusData.certificate}
-                />
-                <a
-                  href={focusData.certificateLink}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  ดูภาพเต็ม <FaArrowRight />
-                </a>
-              </div>
-            ) : (
-              console.log("Not a string", typeof focusData.certificate)
-            )
+            <div className="activity-modal-cert text-center">
+              <hr />
+              <h4 className="mt-4 mb-3">เกียรติบัตร</h4>
+              <Image
+                className="w-75 d-block mx-auto mb-3"
+                src={focusData.certificate}
+              />
+              <a
+                href={focusData.certificateLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                ดูภาพเต็ม <FaArrowRight />
+              </a>
+            </div>
           ) : null}
 
           {focusData.images ? (

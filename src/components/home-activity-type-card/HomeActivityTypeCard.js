@@ -10,7 +10,7 @@ function HomeActivityType(props) {
   return (
     // <Col sm={4}>
     <Col>
-      <Card className="home-activity-type-card text-center">
+      <Card className="home-activity-type-card text-center mb-3">
         <Card.Img variant="top" src={detail.thumbnailUrl} />
         <Card.Body>
           <Card.Title>{detail.title}</Card.Title>

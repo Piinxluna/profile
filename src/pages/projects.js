@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import ProjectCard from "./../components/project-card/ProjectCard";
+import getNotHideData from "./../services/utils/getNotHideData";
 import projects from "./../data/projects.json";
 import getDataById from "./../services/utils/getDataById";
 import ProjectModal from "../components/project-modal/ProjectModal";
@@ -8,9 +9,10 @@ import ProjectModal from "../components/project-modal/ProjectModal";
 import Container from "react-bootstrap/Container";
 
 const Projects = () => {
+  const showProjects = getNotHideData(projects);
   const [focusData, setFocusData] = React.useState(null);
   const setDataFromCard = (cardDataId) => {
-    let data = getDataById(projects, cardDataId);
+    let data = getDataById(showProjects, cardDataId);
     // console.log("setDataFromCard is worked!");
     setFocusData(data);
   };
@@ -20,7 +22,7 @@ const Projects = () => {
     setFocusData(null);
   };
 
-  const projectElements = projects.map((project, index) => {
+  const projectElements = showProjects.map((project, index) => {
     return (
       <ProjectCard
         key={index}

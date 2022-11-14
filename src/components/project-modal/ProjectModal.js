@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import Modal from "react-bootstrap/Modal";
 import Image from "react-bootstrap/Image";
 
@@ -14,10 +15,10 @@ function ActivityModal(props) {
         aria-labelledby="example-custom-modal-styling-title"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="px-4" closeButton>
           <Modal.Title>{focusData.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="px-4">
           {focusData.purpose ? (
             <p className="fs-5">สำหรับ{focusData.purpose}</p>
           ) : null}
@@ -37,6 +38,14 @@ function ActivityModal(props) {
           {focusData.images ? (
             <div className="project-modal-img">
               <hr /> <Image src={focusData.images} />
+            </div>
+          ) : null}
+
+          {focusData.moreInfo ? (
+            <div className="text-center p-2">
+              <a href={focusData.moreInfo} target="_blank" rel="noreferrer">
+                ดูรายละเอียดเพิ่มเติม <FaArrowRight />
+              </a>
             </div>
           ) : null}
         </Modal.Body>
