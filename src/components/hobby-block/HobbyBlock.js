@@ -12,7 +12,7 @@ function HobbyBlock(props) {
 
   return (
     <div className="hobby-block">
-      <div className="icon">
+      <div className="icon fs-1 mb-2">
         {detail.title === "เล่นเกม" ? <IoGameController /> : null}
         {detail.title === "อ่านนิยาย" ? <ImBook /> : null}
         {detail.title === "วาดรูป" ? <MdDraw /> : null}
