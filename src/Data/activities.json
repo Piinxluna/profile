@@ -15,26 +15,48 @@
   {
     "id": 2,
     "categories": "Others",
-    "name": "กิจกรรม KMITLIZATION OPENHOUSE 2020",
-    "organizer": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-    "startDate": "17/10/2020",
-    "moreInfo": "https://www.facebook.com/kmitlofficial/posts/3641275082600417/",
+    "name": "กิจกรรมกีฬาสี",
+    "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
+    "startDate": "08/10/2020",
+    "images": "PSM_SportDay",
     "isHighlight": false,
     "isHide": false
   },
   {
     "id": 3,
     "categories": "Others",
+    "name": "กิจกรรมรับน้อง",
+    "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
+    "startDate": "15/10/2020",
+    "images": "PSM_SchoolHazing2020",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 4,
+    "categories": "Others",
+    "name": "กิจกรรม KMITLIZATION OPENHOUSE 2020",
+    "organizer": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "startDate": "17/10/2020",
+    "moreInfo": "https://www.facebook.com/kmitlofficial/posts/3641275082600417/",
+    "images": "KMITL_KmitlizationOpenHouse",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 5,
+    "categories": "Others",
     "name": "กิจกรรม Leadership Booster",
     "organizer": "Base Playhouse",
     "startDate": "01/11/2020",
     "description": "กิจกรรม workshop เพื่อพัฒนาทักษะความเป็นผู้นำ",
     "certificate": "BasePlayhouse_LeadershipBooster.jpg",
+    "images": "BasePlayhouse_LeadershipBooster",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 4,
+    "id": 6,
     "categories": "Others",
     "name": "กิจกรรม MUEG Open house 2020",
     "organizer": "คณะวิศวกรรมศาสตร์ มหาวิทยาลัยมหิดล",
@@ -44,7 +66,7 @@
     "isHide": false
   },
   {
-    "id": 5,
+    "id": 7,
     "categories": "Computer",
     "name": "การแข่งขันเขียนโปรแกรมคอมพิวเตอร์ ประจำปี 2563 ระดับมัธยมศึกษาตอนปลาย",
     "organizer": "มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน",
@@ -52,11 +74,12 @@
     "startDate": "04/12/2020",
     "description": "เป็นแข่งเขียนโปรแกรมภาษา C++ เนื่องในงานเกษตรกำแพงแสน ประจำปี 2563",
     "certificate": "KUKPS_ProgrammingComp.jpg",
+    "images": "KUKPS_ProgrammingComp",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 6,
+    "id": 8,
     "categories": "Computer",
     "name": "การสอบสอวน. คอม",
     "startDate": "20/12/2020",
@@ -64,36 +87,50 @@
     "isHide": true
   },
   {
-    "id": 7,
+    "id": 9,
+    "categories": "Computer",
+    "name": "การแข่งขัน Bangmod Hackathon",
+    "organizer": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "startDate": "26/12/2020",
+    "description": "แข่งเขียนโปรแกรมภาษา C++",
+    "images": "KMUTT_BangmodHackaton",
+    "isHighlight": false,
+    "isHide": true
+  },
+  {
+    "id": 10,
     "categories": "Computer",
     "name": "อบรม หัวข้อ \"การเขียน JavaScript เพื่อเรียกใช้บริการ Google Map API\"",
     "organizer": "คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
     "startDate": "23/01/2021",
     "moreInfo": "https://www.facebook.com/SIT.Family/photos/pb.217411248788.-2207520000../10158116680273789/?type=3&eid=ARAeUofFA_l_mCvpmpm6A5URhz7E5s4wUOY7Xv5Jd-3hPmudA9Ld1U_N1GwAsXWDnTBPm_OLf3a0UVZr",
+    "images": "KMUTT_JSForGoogleMapAPI",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 8,
+    "id": 11,
     "categories": "Computer",
     "name": "อบรมเกี่ยวกับบอร์ด Kidbright",
     "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
     "startDate": "28/01/2021",
+    "images": "NECTEC_KidbrightBoard",
     "isHighlight": false,
     "isHide": false
   },
   {
-    "id": 9,
+    "id": 12,
     "categories": "Others",
     "name": "กิจกรรม Innovator Journey Online Workshop",
     "organizer": "หลักสูตรการจัดการเทคโนโลยีและนวัตกรรม คณะบริหารธุรกิจ สถาบันเทคโนโลยีไทย-ญี่ปุ่น",
     "startDate": "06/03/2021",
     "certificate": "TNI_InnovatorJourney.jpg",
+    "images": "TNI_InnovatorJourney",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 10,
+    "id": 13,
     "categories": "Others",
     "name": "โครงการทดสอบความรู้แบบ Online วิชา PAT1 ครั้งที่ 2",
     "organizer": "บริษัท เสริมปัญญา จำกัด",
@@ -105,7 +142,7 @@
     "isHide": false
   },
   {
-    "id": 11,
+    "id": 14,
     "categories": "Computer",
     "name": "กิจกรรม Microsoft Digigirlz 2021 Thailand",
     "organizer": "Microsoft (Thailand)",
@@ -115,7 +152,7 @@
     "isHide": false
   },
   {
-    "id": 12,
+    "id": 15,
     "categories": "Computer",
     "name": "อบรมหลักสูตร Line bot designer",
     "organizer": "ภาควิชาคอมพิวเตอร์ศึกษา คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
@@ -125,7 +162,7 @@
     "isHide": false
   },
   {
-    "id": 13,
+    "id": 16,
     "categories": "Others",
     "name": "อบรมหลักสูตร Elementary Korean I (online)",
     "organizer": "ศูนย์ภาษา คณะมนุษยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
@@ -137,7 +174,7 @@
     "isHide": false
   },
   {
-    "id": 14,
+    "id": 17,
     "categories": "Others",
     "name": "กิจกรรม TNI EducationExpo 2021",
     "organizer": "สถาบันเทคโนโลยีไทย-ญี่ปุ่น",
@@ -147,7 +184,7 @@
     "isHide": false
   },
   {
-    "id": 15,
+    "id": 18,
     "categories": "Computer",
     "name": "ค่าย Geek Game Maker Camp",
     "organizer": "Hamster Hub",
@@ -158,7 +195,7 @@
     "isHide": false
   },
   {
-    "id": 16,
+    "id": 19,
     "categories": "Others",
     "name": "กิจกรรม CU Open House 2021: Online Tour เปิดบ้านจุฬาฯ ออนไลน์",
     "organizer": "จุฬาลงกรณ์มหาวิทยาลัย",
@@ -169,7 +206,7 @@
     "isHide": false
   },
   {
-    "id": 17,
+    "id": 20,
     "categories": "Computer",
     "name": "โครงการ \"Mission Innovator\" สร้างนวัตกรรมทางสังคม",
     "organizer": "คณะสหวิทยาการ เทคโนโลยีและนวัตรกรรม มหาวิทยาลัยศรีปทุม",
@@ -181,7 +218,7 @@
     "isHide": false
   },
   {
-    "id": 18,
+    "id": 21,
     "categories": "Others",
     "name": "กิจกรรมวิศวฯ จุฬาฯ Openhouse (ภาควิชาวิศวกรรมคอมพิวเตอร์ & วิศวกรรมไฟฟ้า)",
     "organizer": "คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
@@ -190,7 +227,7 @@
     "isHide": false
   },
   {
-    "id": 19,
+    "id": 22,
     "categories": "Others",
     "name": "กิจกรรม Open House : Carnegie Mellon University Preparation Program",
     "organizer": "CMKL Thailand",
@@ -200,7 +237,7 @@
     "isHide": false
   },
   {
-    "id": 20,
+    "id": 23,
     "categories": "Computer",
     "name": "กิจกรรม Aidea Workshop 2021",
     "organizer": "Aidea Thailand",
@@ -209,11 +246,12 @@
     "exactDate": "26-May-2021, 3-Jun-2021, 5-Jun-2021",
     "description": "เป็น workshop เพื่อเรียนรู้และสร้างปัญญาประดิษฐ์ (AI) ที่สามารถตอบโจทย์การแก้ปัญหาผ่านกระบวนการ Design Thinking และ Critical Thinking",
     "certificate": "AideaTH_AideaWorkshop.jpeg",
+    "images": "AideaTH_AideaWorkshop",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 21,
+    "id": 24,
     "categories": "Others",
     "name": "กิจกรรม Make a Wish on Vesak Day จุดเทียน แผ่เมตตา ส่งพลังบวกให้โลกพ้นภัยโควิด",
     "organizer": "องค์กรอาสาสมัครเพื่อสันติภาพ",
@@ -223,7 +261,7 @@
     "isHide": false
   },
   {
-    "id": 22,
+    "id": 25,
     "categories": "Others",
     "name": "อบรม Korean : Basic 2",
     "organizer": "คณะมนุษยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ",
@@ -235,7 +273,7 @@
     "isHide": false
   },
   {
-    "id": 23,
+    "id": 26,
     "categories": "Computer",
     "name": "อบรมเกี่ยวกับ Tele 3D Printing",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -244,7 +282,7 @@
     "isHide": false
   },
   {
-    "id": 24,
+    "id": 27,
     "categories": "Computer",
     "name": "อบรมเกี่ยวกับ AutoCAD (Online)",
     "organizer": "EEC Automation Park (มหาวิทยาลัยบูรพา)",
@@ -256,7 +294,7 @@
     "isHide": false
   },
   {
-    "id": 25,
+    "id": 28,
     "categories": "Others",
     "name": "การทดสอบความรู้พื้นฐานภาษาไทย เนื่องในวันภาษาไทยแห่งชาติ",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -267,26 +305,28 @@
     "isHide": false
   },
   {
-    "id": 26,
+    "id": 29,
     "categories": "Computer",
     "name": "อบรม Basic Data Science course and examination",
     "organizer": "ITM Mahidol University & ATDI",
     "startDate": "19/08/2021",
     "certificate": "ITM_BasicDataScience.jpg",
+    "images": "ITM_BasicDataScience",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 27,
+    "id": 30,
     "categories": "Computer",
     "name": "อบรมเกี่ยวกับ Data Analytics",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
     "startDate": "09/09/2021",
+    "images": "PSM_DataAnalytics",
     "isHighlight": false,
     "isHide": false
   },
   {
-    "id": 28,
+    "id": 31,
     "categories": "Others",
     "name": "อบรม Korean : Basic 3",
     "organizer": "คณะมนุษยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ",
@@ -298,7 +338,7 @@
     "isHide": false
   },
   {
-    "id": 29,
+    "id": 32,
     "categories": "Others",
     "name": "การสอบ TU-GET",
     "organizer": "มหาวิทยาลัยธรรมศาสตร์",
@@ -308,7 +348,7 @@
     "isHide": false
   },
   {
-    "id": 30,
+    "id": 33,
     "categories": "Others",
     "name": "กิจกรรม K-Engineering World Workshop 2021",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -317,7 +357,7 @@
     "isHide": false
   },
   {
-    "id": 31,
+    "id": 34,
     "categories": "Computer",
     "name": "กิจกรรม K-Engineering World Workshop 2021 กลุ่มวิศวะคอมพิวเตอร์",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -328,7 +368,7 @@
     "isHide": false
   },
   {
-    "id": 32,
+    "id": 35,
     "categories": "Computer",
     "name": "กิจกรรม Inspire IT65 และการอบรมเชิงปฏิบัติการ Workshop Portfolio แบบ Interactive ด้วย Web Technology",
     "organizer": "ชุมนุมสร้างเสริมประสบการณ์ชีวิต คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -338,18 +378,19 @@
     "isHide": false
   },
   {
-    "id": 33,
+    "id": 36,
     "categories": "Computer",
     "name": "การแข่งขันตอบปัญหาวิชาการ ระดับชั้นมัธยมศึกษาตอนปลาย หมวดวิชาคอมพิวเตอร์ ในงาน Academic War สงครามแห่งปัญญา ครั้งที่ 3 (รอบคัดเลือก)",
     "organizer": "TCASter",
     "score": "คะแนนผ่านเกณฑ์ระดับเพชร",
     "startDate": "14/11/2021",
     "certificate": "TCASter_AcademicWar3_Qualifier.png",
+    "images": "TCASter_AcademicWar3_Qualifier",
     "isHighlight": false,
     "isHide": false
   },
   {
-    "id": 34,
+    "id": 37,
     "categories": "Others",
     "name": "กิจกรรม SWU OPEN HOUSE 2021 - เปิดบ้านศรีนครินทรวิโรฒ 2564",
     "organizer": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
@@ -358,18 +399,19 @@
     "isHide": false
   },
   {
-    "id": 35,
+    "id": 38,
     "categories": "Computer",
     "name": "การแข่งขันตอบปัญหาวิชาการ ระดับชั้นมัธยมศึกษาตอนปลาย หมวดวิชาคอมพิวเตอร์ ในงาน Academic War สงครามแห่งปัญญา ครั้งที่ 3 (รอบชิงชนะเลิศ)",
     "organizer": "TCASter",
     "award": "รองชนะเลิศอันดับที่ 1",
     "startDate": "21/11/2021",
     "certificate": "TCASter_AcademicWar3_Final.png",
+    "images": "TCASter_AcademicWar3_Final",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 36,
+    "id": 39,
     "categories": "Computer",
     "name": "ค่ายอัจฉริยภาพวิศวศิลปากร สาขาวิศวกรรมอิเล็กทรอนิกส์และระบบคอมพิวเตอร์ ภาควิชาวิศวกรรมไฟฟ้า",
     "organizer": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยศิลปากร",
@@ -381,7 +423,18 @@
     "isHide": false
   },
   {
-    "id": 37,
+    "id": 40,
+    "categories": "Others",
+    "name": "จัดงานกีฬาสี ม.5 ทำคำถามกิจกรรมการแข่ง Quizziz",
+    "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
+    "startDate": "10/12/2021",
+    "moreInfo": "https://twitter.com/pr_psm/status/1469155433872965632?s=20&t=3uDTa7LV-YHS3xCifGoOMg",
+    "images": "https://twitter.com/pr_psm/status/1469145333061984256?s=20&t=3uDTa7LV-YHS3xCifGoOMg",
+    "isHighlight": true,
+    "isHide": false
+  },
+  {
+    "id": 41,
     "categories": "Computer",
     "name": "อบรม Basic Data Analytics Workshop",
     "organizer": "Sirindhorn International Institute of Technology (SIIT)",
@@ -391,18 +444,107 @@
     "isHide": false
   },
   {
-    "id": 38,
+    "id": 42,
     "categories": "Computer",
     "name": "อบรม Basic Python Programming for Health Data Science แบบ Online",
     "organizer": "วิทยาลัยแพทยศาสตร์ศรีสวางควัฒน ราชวิทยาลัยจุฬาภรณ์",
     "startDate": "08/01/2022",
     "endDate": "09/01/2022",
     "certificate": "CRA_BasicPythonForHealthDataScience.jpg",
+    "images": "CRA_BasicPythonForHealthDataScience",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 39,
+    "id": 43,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร Creative Computing",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "08/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_CreativeComputing.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 44,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร Automation by Kidbright",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "09/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_AutomationByKidbright.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 45,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร ทักษะการพัฒนาผลงาน 2 มิติและ 3 มิติ",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "15/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_2DAnd3DDesign.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 46,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร ออกแบบระบบ AI ด้วย Kidbright AI Platform",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "16/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_KidbrightAIPlatform.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 47,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร การออกแบบเทคโนโลยี VR ผ่าน Unity",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "22/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_UnityAndVR.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 48,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร การประยุกต์ใช้ VR ร่วมกับ Kidbright AI Platform",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "23/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_KidbrightAIPlatformAndVR.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 49,
+    "categories": "Computer",
+    "name": "อบรมหลักสูตร Sensor / Actuator Design Robotics และ AR Inspiration",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "29/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_DesignRoboticsAndAR.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 50,
+    "categories": "Others",
+    "name": "อบรมหลักสูตร ศิลปะการละคร",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "30/01/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "certificate": "NECTEC_PerformingArt.jpg",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 51,
     "categories": "Computer",
     "name": "อบรม ปัญญาประดิษฐ์กับเทคโนโลยีด้านเสียง (AI Speech)",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม) ร่วมกับ ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
@@ -412,7 +554,7 @@
     "isHide": false
   },
   {
-    "id": 40,
+    "id": 52,
     "categories": "Computer",
     "name": "การประกวดแข่งขัน Kidbright Onstage 2022",
     "organizer": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ \\n ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
@@ -420,11 +562,12 @@
     "startDate": "11/02/2022",
     "endDate": "13/02/2022",
     "certificate": "NECTEC_KidbrightOnstage2022.jpg",
+    "images": "NECTEC_KidbrightOnstage2022",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 41,
+    "id": 53,
     "categories": "Computer",
     "name": "National Software Contest 2022",
     "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
@@ -435,7 +578,18 @@
     "isHide": false
   },
   {
-    "id": 42,
+    "id": 54,
+    "categories": "Others",
+    "name": "ค่ายพัฒนาทักษะเกี่ยวกับการแสดง",
+    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
+    "startDate": "07/04/2022",
+    "endDate": "09/04/2022",
+    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
+    "isHighlight": false,
+    "isHide": false
+  },
+  {
+    "id": 55,
     "categories": "Others",
     "name": "อบรมเกี่ยวกับ Story Telling",
     "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
@@ -445,7 +599,7 @@
     "isHide": false
   },
   {
-    "id": 43,
+    "id": 56,
     "categories": "Volunteer",
     "name": "กิจกรรมเก็บขยะปล่อยปลาฉลาม ณ หาดตะวันรอน จังหวัดชลบุรี",
     "organizer": "One fine day",
@@ -455,18 +609,19 @@
     "isHide": false
   },
   {
-    "id": 44,
+    "id": 57,
     "categories": "Others",
     "name": "ค่ายลานเกียร์ ครั้งที่ 21",
     "organizer": "คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
     "startDate": "02/06/2022",
     "endDate": "05/06/2022",
     "certificate": "CU_LarnGearCamp21.jpg",
+    "images": "CU_LarnGearCamp21",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 45,
+    "id": 58,
     "categories": "Computer",
     "name": "การทดสอบวัดระดับความรู้เบื้องต้นเกี่ยวกับทักษะกระบวนการคิดแบบคอมพิวเตอร์ To Be IT'66 ด้วยการทำแบบทดสอบออนไลน์",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -479,7 +634,7 @@
     "isHide": false
   },
   {
-    "id": 46,
+    "id": 59,
     "categories": "Others",
     "name": "การแนะนำการสอบ TPAT3",
     "organizer": "On Demand",
@@ -488,7 +643,7 @@
     "isHide": false
   },
   {
-    "id": 47,
+    "id": 60,
     "categories": "Computer",
     "name": "ค่ายพัฒนาทักษะกระบวนการคิดแบบคอมพิวเตอร์และการพัฒนาโครงงานด้านเทคโนโลยีสารสนเทศ To Be IT’66",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -496,12 +651,13 @@
     "endDate": "26/06/2022",
     "exactDate": "18-19/6/2022, 25-26/6/2022 ",
     "description": "ค่าย ToBeIT’66 แบบ Onsite เฉพาะวันเสาร์อาทิตย์",
-    "certificate": "KMITL-IT_ToBeIT66_Online.png",
+    "certificate": "KMITL-IT_ToBeIT66_Onsite.png",
+    "images": "KMITL-IT_ToBeIT66_Onsite",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 48,
+    "id": 61,
     "categories": "Others",
     "name": "การแนะแนวทางการศึกษาต่อ",
     "organizer": "ที่ประชุมอธิการบดีแห่งประเทศไทย (ทปอ.)",
@@ -510,7 +666,7 @@
     "isHide": false
   },
   {
-    "id": 49,
+    "id": 62,
     "categories": "Volunteer",
     "name": "ภารกิจบริจาคเส้นผมและค่าทอวิก เพื่อมอบให้แก่ผู้ป่วยมะเร็งยากไร้ทั่วประเทศ",
     "organizer": "มูลนิธิจากนางฟ้าถึงคุณวันใหม่",
@@ -520,7 +676,7 @@
     "isHide": false
   },
   {
-    "id": 50,
+    "id": 63,
     "categories": "Computer",
     "name": "ค่าย IT Camp ครั้งที่ 18",
     "organizer": "คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -528,30 +684,33 @@
     "endDate": "17/07/2022",
     "description": "ค่ายย่อย Nettapunk (Network)",
     "certificate": "KMITL-IT_ITCamp18.jpg",
+    "images": "KMITL-IT_ITCamp18",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 51,
+    "id": 64,
     "categories": "Others",
     "name": "จัดกิจกรรมรับน้อง",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
     "startDate": "22/07/2022",
+    "images": "PSM_SchoolHazing2022",
     "isHighlight": false,
     "isHide": false
   },
   {
-    "id": 52,
+    "id": 65,
     "categories": "Computer",
     "name": "อบรม React ก้าวแรกสู่การเป็นนักพัฒนา Front-End มืออาชีพ",
     "organizer": "มหาวิทยาลัยรังสิต",
     "startDate": "24/07/2022",
     "certificate": "RSU_ReactBasic.jpg",
+    "images": "RSU_ReactBasic",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 53,
+    "id": 66,
     "categories": "Others",
     "name": "กิจกรรมพี่บอกน้อง TCAS66",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -560,7 +719,7 @@
     "isHide": false
   },
   {
-    "id": 54,
+    "id": 67,
     "categories": "Others",
     "name": "การศึกษาดูงานที่บริษัท Amita (ผลิตแบตเตอรี่ลิเทียมไอออน) และบริษัท Energy absolute (ผลิตรถบัสไฟฟ้า)",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -569,18 +728,19 @@
     "isHide": false
   },
   {
-    "id": 55,
+    "id": 68,
     "categories": "Computer",
     "name": "การแข่งขันทักษะทางคอมพิวเตอร์ เทคโนโลยีสารสนเทศ วิทยาการข้อมูลและปัญญาประดิษฐ์ ระดับมัธยมศึกษาตอนปลาย",
     "organizer": "คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น",
     "startDate": "16/08/2022",
     "description": "การแข่งขันตอบปัญหาทางคอมพิวเตอร์รวม 25 ข้อ และเขียนโปรแกรมภาษา python เพื่อแก้โจทย์ปัญหาและแสดงผลกราฟตามที่โจทย์กำหนด ด้วย pandas, numpy และ matplotlib \\n เนื่องในงานสัปดาห์วิทยาศาสตร์แห่งชาติ ครั้งที่ 5 และงานสัปดาห์วิชาการ ครั้งที่ 17 ประจำปี 2565",
     "certificate": "KKU_ComputerComp.jpg",
+    "images": "KKU_ComputerComp",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 56,
+    "id": 69,
     "categories": "Others",
     "name": "รับเกียรติบัตรผลการเรียนยอดเยี่ยม ปีการศึกษา 2564 โดยทำระดับผลการเรียนเฉลี่ยประจำปีได้ 4.00",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -590,7 +750,7 @@
     "isHide": false
   },
   {
-    "id": 57,
+    "id": 70,
     "categories": "Others",
     "name": "การศึกษาดูงานที่คณะวิทยาศาสตร์ มหาวิทยาลัยบูรพา และ EEC Automation Park",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -599,7 +759,7 @@
     "isHide": false
   },
   {
-    "id": 58,
+    "id": 71,
     "categories": "Others",
     "name": "TCASter Mock Exam (วิศวะ)",
     "organizer": "TCASter",
@@ -610,7 +770,7 @@
     "isHide": false
   },
   {
-    "id": 59,
+    "id": 72,
     "categories": "Computer",
     "name": "กิจกรรม Basic IoT Workshop",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -622,7 +782,7 @@
     "isHide": false
   },
   {
-    "id": 60,
+    "id": 73,
     "categories": "Others",
     "name": "กิจกรรมเยี่ยมชม K-Engineering World Tour and Workshop 2022",
     "organizer": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
@@ -632,7 +792,7 @@
     "isHide": false
   },
   {
-    "id": 61,
+    "id": 74,
     "categories": "Volunteer",
     "name": "แนะแนวเกี่ยวกับวิชาเอกให้รุ่นน้องม.3",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -641,17 +801,18 @@
     "isHide": false
   },
   {
-    "id": 62,
+    "id": 75,
     "categories": "Computer",
     "name": "กิจกรรม Data camp in Wonderland (ค่ายวิทยาศาสตร์ข้อมูล ครั้งที่ 2)",
     "organizer": "สาขาวิทยาศาสตร์และนวัตกรรมข้อมูล วิทยาลัยสหวิทยาการ มหาวิทยาลัยธรรมศาสตร์",
     "startDate": "08/10/2022",
     "certificate": "TU_DataCampInWonderland.jpg",
+    "images": "TU_DataCampInWonderland",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 63,
+    "id": 76,
     "categories": "Volunteer",
     "name": "แนะแนวเกี่ยวกับวิชาเอกให้รุ่นน้องม.3",
     "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
@@ -661,7 +822,7 @@
     "isHide": false
   },
   {
-    "id": 64,
+    "id": 77,
     "categories": "Computer",
     "name": "Gamer to coder",
     "organizer": "กระทรวงศึกษาธิการ (ศธ.) และบริษัท การีนา ออนไลน์ (ประเทศไทย)",
@@ -669,11 +830,12 @@
     "endDate": "26/10/2022",
     "description": "เข้าร่วมฟังบรรยายเกี่ยวกับการพัฒนาเกม, วงการ E-sport, การพัฒนาเว็บไซต์, การออกแบบ UX-UI \\n และได้เรียนรู้เกี่ยวกับการพัฒนาเว็บไซต์ (ภาษา HTML, CSS, JavaScript) รวมถึงการเขียน Flowchart, Restful API, GoLang และ Gitlab",
     "moreInfo": "project id : 11",
+    "images": "Garena_GamerToCoder",
     "isHighlight": true,
     "isHide": false
   },
   {
-    "id": 65,
+    "id": 78,
     "categories": "Others",
     "name": "สอบ CU TEP",
     "organizer": "จุฬาลงกรณ์มหาวิทยาลัย",
@@ -683,7 +845,7 @@
     "isHide": false
   },
   {
-    "id": 66,
+    "id": 79,
     "categories": "Computer",
     "name": "DevLab 3 Open Access Program",
     "organizer": "BornToDev",
@@ -695,7 +857,7 @@
     "isHide": false
   },
   {
-    "id": 67,
+    "id": 80,
     "categories": "Others",
     "name": "สอบทุน SIIT",
     "organizer": "Sirindhorn International Institute of Technology (SIIT)",
@@ -704,127 +866,7 @@
     "isHide": true
   },
   {
-    "id": 68,
-    "categories": "Computer",
-    "name": "Bangmod Hackathon",
-    "organizer": "บางมด",
-    "startDate": "26/12/2022",
-    "description": "แข่งเขียนโปรแกรมภาษา C++",
-    "isHighlight": false,
-    "isHide": true
-  },
-  {
-    "id": 69,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร ทักษะการพัฒนาผลงาน 2 มิติและ 3 มิติ",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "15/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_2DAnd3DDesign.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 70,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร Automation by Kidbright",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "09/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_AutomationByKidbright.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 71,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร Creative Computing",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "08/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_CreativeComputing.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 72,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร Sensor / Actuator Design Robotics และ AR Inspiration",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "29/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_DesignRoboticsAndAR.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 73,
-    "categories": "Others",
-    "name": "อบรมหลักสูตร ศิลปะการละคร",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "30/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_PerformingArt.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 74,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร ออกแบบระบบ AI ด้วย Kidbright AI Platform",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "16/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_KidbrightAIPlatform.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 75,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร การออกแบบเทคโนโลยี VR ผ่าน Unity",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "22/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_UnityAndVR.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 76,
-    "categories": "Computer",
-    "name": "อบรมหลักสูตร การประยุกต์ใช้ VR ร่วมกับ Kidbright AI Platform",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "23/01/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "certificate": "NECTEC_KidbrightAIPlatformAndVR.jpg",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 77,
-    "categories": "Others",
-    "name": "จัดงานกีฬาสี ม.5 ทำคำถามกิจกรรมการแข่ง Quizziz",
-    "organizer": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร (ฝ่ายมัธยม)",
-    "startDate": "10/12/2021",
-    "moreInfo": "https://twitter.com/pr_psm/status/1469155433872965632?s=20&t=3uDTa7LV-YHS3xCifGoOMg",
-    "images": "https://twitter.com/pr_psm/status/1469145333061984256?s=20&t=3uDTa7LV-YHS3xCifGoOMg",
-    "isHighlight": true,
-    "isHide": false
-  },
-  {
-    "id": 78,
-    "categories": "Others",
-    "name": "ค่ายพัฒนาทักษะเกี่ยวกับการแสดง",
-    "organizer": "ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC)",
-    "startDate": "07/04/2022",
-    "endDate": "09/04/2022",
-    "description": "ส่วนหนึ่งของการอบรมสำหรับการแข่งขัน Kidbright Onstage",
-    "isHighlight": false,
-    "isHide": false
-  },
-  {
-    "id": 79,
+    "id": 81,
     "categories": "Others",
     "name": "สอบ GSAT",
     "organizer": "จุฬาลงกรณ์มหาวิทยาลัย มหาวิทยาลัยธรรมศาสตร์ และมหาวิทยาลัยศรีนครินทรวิโรฒ",
@@ -833,7 +875,7 @@
     "isHide": false
   },
   {
-    "id": 80,
+    "id": 82,
     "categories": "Others",
     "name": "เกียรติบัตรรร.",
     "isHighlight": false,
