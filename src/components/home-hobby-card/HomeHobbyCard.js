@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeHobbyCard.css";
-import { FaArrowRight } from "react-icons/fa";
 
 import { IoGameController } from "react-icons/io5";
 import { ImBook } from "react-icons/im";
@@ -25,12 +24,6 @@ function HomeHobbyCard(props) {
 
         <h4>{detail.title}</h4>
         <p>{detail.description}</p>
-
-        {!!detail.moreInfo && (
-          <a href={`/profile/hobbies/${detail.moreInfo}`}>
-            ดูผลงานเพิ่มเติม <FaArrowRight />
-          </a>
-        )}
       </Link>
     </Col>
   );
