@@ -10,7 +10,9 @@ function ProjectCard(props) {
 
   return (
     <Card className="project-card w-75 m-4 mx-auto px-4 py-3 text-center">
-      <Card.Img variant="top" src={detail.coverImage} alt={detail.name} />
+      {!!detail.coverImage && (
+        <Card.Img variant="top" src={detail.coverImage} alt={detail.name} />
+      )}
       <Card.Body>
         <Card.Title className="fs-3 mb-2">{detail.name}</Card.Title>
         {detail.purpose ? <p className="fs-5">สำหรับ{detail.purpose}</p> : null}

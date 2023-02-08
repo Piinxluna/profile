@@ -27,7 +27,7 @@ const ProjectPart = () => {
       <div className="my-carousel"></div>
       <Carousel pause="hover" slide={false} variant="dark">
         {projects.map((project, index) => {
-          if (project.isHighlight === true) {
+          if (project.isHighlight === true && project.coverImage != null) {
             return (
               <Carousel.Item key={index}>
                 <div
@@ -44,6 +44,37 @@ const ProjectPart = () => {
                   <img
                     className="d-block w-100 d-md-none"
                     src={project.coverImage}
+                    alt={project.name}
+                  />
+                </div>
+
+                <Carousel.Caption className="d-none d-md-block">
+                  <h3 className="fw-600">{project.name}</h3>
+                  {!!project.purpose && <h5>สำหรับ{project.purpose}</h5>}
+                  <p className="fw-600">{project.description}</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+          } else if (
+            project.isHighlight === true &&
+            project.coverImage == null
+          ) {
+            return (
+              <Carousel.Item key={index}>
+                <div
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    setDataFromCard(project.id);
+                  }}
+                >
+                  <img
+                    className="d-block w-100 d-none d-md-block img-gradient"
+                    src="/projects/cover/ProjectCoverDefault.jpg"
+                    alt={project.name}
+                  />
+                  <img
+                    className="d-block w-100 d-md-none"
+                    src="/projects/cover/ProjectCoverDefault.jpg"
                     alt={project.name}
                   />
                 </div>
