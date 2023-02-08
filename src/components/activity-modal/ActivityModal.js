@@ -43,6 +43,7 @@ function ActivityModal(props) {
               <Image
                 className="w-75 d-block mx-auto mb-3"
                 src={
+                  process.env.PUBLIC_URL +
                   "/images/activities/certificate/" +
                   focusData.startDate.slice(-4) +
                   "/" +
