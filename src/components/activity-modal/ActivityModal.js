@@ -1,4 +1,5 @@
 import React from "react";
+import importImagesFromFolder from "../../services/utils/importImagesFromFolder";
 import Modal from "react-bootstrap/Modal";
 import Image from "react-bootstrap/Image";
 
@@ -8,6 +9,46 @@ import Col from "react-bootstrap/Col";
 
 function ActivityModal(props) {
   const { focusData } = props;
+
+  // function importAll(r) {
+  //   let images = {};
+  //   r.keys().map((item, index) => {
+  //     images[item.replace("./", "")] = r(item);
+  //   });
+  //   return images;
+  // }
+  let imagesElements = null;
+
+  if (props.focusData !== null) {
+    // Using require.context()
+    // let imagePath =
+    //   "../../../public/images/activities/img/" +
+    //   focusData.startDate.slice(-4) +
+    //   "/" +
+    //   focusData.images;
+    // if (focusData.images && focusData.images.slice(8) !== "https://") {
+    //   console.log(imagePath);
+    //   const imagesArray = Object.values(
+    //     importAll(
+    //       require.context(
+    //         "../../../public/images/activities/img/2020/KMITL_KmitlizationOpenHouse",
+    //         false,
+    //         /\.(png|jpe?g|svg|jpg|gif)$/
+    //       )
+    //     )
+    //   );
+    //   imagesElements = imagesArray.map((image, index) => {
+    //     return <Image className="w-75 d-block mx-auto mb-3" src={image} />;
+    //   });
+    // }
+    // --------------------------------------
+    if (focusData.images) {
+      const imagesArray = importImagesFromFolder(focusData.images);
+      imagesElements = imagesArray.map((image, index) => {
+        return <Image className="w-75 d-block mx-auto mb-3" src={image} />;
+      });
+    }
+  }
 
   if (focusData) {
     return (

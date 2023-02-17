@@ -64,6 +64,7 @@ function PersonalInfoPart() {
                   className="mr-3"
                   variant="primary"
                   onClick={() => setModalPhoneShow(true)}
+                  disabled
                 >
                   <ImPhone className="icon" />
                 </Button>
@@ -71,8 +72,8 @@ function PersonalInfoPart() {
                   title={"โทรศัพท์"}
                   shortName={"Tel"}
                   fullName={"Phone Number"}
-                  contact={"096-859-3355"}
-                  contactNowBtn={"tel:+66968593355"}
+                  contact={"0XX-XXX-XXXX"}
+                  contactNowBtn={""}
                   contactNowText={"Call me"}
                   show={modalPhoneShow}
                   onHide={() => setModalPhoneShow(false)}
