@@ -4,6 +4,7 @@ import "./personalInfoPart.css";
 import { IoMail } from "react-icons/io5";
 import { ImPhone } from "react-icons/im";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -46,24 +47,22 @@ function PersonalInfoPart() {
               <h3 className="fw-bold mb-3">ช่องทางการติดต่อ</h3>
               <div className="contact-button">
                 <Button
-                  className="mr-3"
+                  className="mr-2"
                   variant="primary"
-                  onClick={() => setModalGithubShow(true)}
-                  disabled
+                  onClick={() => setModalPhoneShow(true)}
                 >
-                  <FontAwesomeIcon icon="fa-brands fa-github" />
+                  <ImPhone className="icon" />
                 </Button>
                 <ContactModal
-                  title={"Github"}
-                  shortName={"Github"}
-                  fullName={"Github"}
-                  contact={"https://github.com/Piinxluna"}
-                  contactNowBtn={"https://github.com/Piinxluna"}
-                  contactNowText={"View my github"}
-                  show={modalGithubShow}
-                  onHide={() => setModalGithubShow(false)}
+                  title={"โทรศัพท์"}
+                  shortName={"Tel"}
+                  fullName={"Phone Number"}
+                  contact={"096-859-3355"}
+                  contactNowBtn={"tel:+66968593355"}
+                  contactNowText={"Call me"}
+                  show={modalPhoneShow}
+                  onHide={() => setModalPhoneShow(false)}
                 />
-
                 <Button
                   className="mr-2"
                   variant="primary"
@@ -82,22 +81,21 @@ function PersonalInfoPart() {
                   onHide={() => setModalMailShow(false)}
                 />
                 <Button
-                  className="mr-3"
+                  className="mr-2"
                   variant="primary"
-                  onClick={() => setModalPhoneShow(true)}
-                  disabled
+                  onClick={() => setModalGithubShow(true)}
                 >
-                  <ImPhone className="icon" />
+                  <FontAwesomeIcon icon={faGithub} className="icon" />
                 </Button>
                 <ContactModal
-                  title={"โทรศัพท์"}
-                  shortName={"Tel"}
-                  fullName={"Phone Number"}
-                  contact={"096-859-3355"}
-                  contactNowBtn={"tel:+66968593355"}
-                  contactNowText={"Call me"}
-                  show={modalPhoneShow}
-                  onHide={() => setModalPhoneShow(false)}
+                  title={"Github"}
+                  shortName={"Github"}
+                  fullName={"Github link"}
+                  contact={"https://github.com/Piinxluna"}
+                  contactNowBtn={"https://github.com/Piinxluna"}
+                  contactNowText={"View my github"}
+                  show={modalGithubShow}
+                  onHide={() => setModalGithubShow(false)}
                 />
               </div>
             </div>

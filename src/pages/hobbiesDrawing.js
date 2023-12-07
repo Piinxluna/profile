@@ -1,7 +1,7 @@
 import React from "react";
 import artworks from "./../data/artworks.json";
 
-import { IGEmbed } from "react-ig-embed";
+import { InstagramEmbed } from "react-social-media-embed";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -15,7 +15,7 @@ function hobbiesDrawing() {
     if (artwork.type === "ig") {
       return (
         <Col key={index} className="align-self-center">
-          <IGEmbed url={artwork.src} />
+          <InstagramEmbed url={artwork.src} />
         </Col>
       );
     }

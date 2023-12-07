@@ -11,7 +11,7 @@ import ActivityModal from "./../../components/activity-modal/ActivityModal";
 import Container from "react-bootstrap/Container";
 
 function ActivitiesComputer() {
-  const showActivities = getNotHideData(activities)
+  const showActivities = getNotHideData(activities);
   const computerActivities = getDataByCategory(showActivities, "Computer");
   const activitiesIn2020 = getDataByYear(computerActivities, 2020);
   const activitiesIn2021 = getDataByYear(computerActivities, 2021);
