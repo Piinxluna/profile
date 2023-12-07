@@ -3,6 +3,7 @@ import "./personalInfoPart.css";
 
 import { IoMail } from "react-icons/io5";
 import { ImPhone } from "react-icons/im";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -18,6 +19,7 @@ import Image from "react-bootstrap/Image";
 function PersonalInfoPart() {
   const [modalMailShow, setModalMailShow] = React.useState(false);
   const [modalPhoneShow, setModalPhoneShow] = React.useState(false);
+  const [modalGithubShow, setModalGithubShow] = React.useState(false);
 
   return (
     <Container className="home-personal-info p-5 d-flex align-items-center">
@@ -44,6 +46,25 @@ function PersonalInfoPart() {
               <h3 className="fw-bold mb-3">ช่องทางการติดต่อ</h3>
               <div className="contact-button">
                 <Button
+                  className="mr-3"
+                  variant="primary"
+                  onClick={() => setModalGithubShow(true)}
+                  disabled
+                >
+                  <FontAwesomeIcon icon="fa-brands fa-github" />
+                </Button>
+                <ContactModal
+                  title={"Github"}
+                  shortName={"Github"}
+                  fullName={"Github"}
+                  contact={"https://github.com/Piinxluna"}
+                  contactNowBtn={"https://github.com/Piinxluna"}
+                  contactNowText={"View my github"}
+                  show={modalGithubShow}
+                  onHide={() => setModalGithubShow(false)}
+                />
+
+                <Button
                   className="mr-2"
                   variant="primary"
                   onClick={() => setModalMailShow(true)}
@@ -54,8 +75,8 @@ function PersonalInfoPart() {
                   title={"E-mail"}
                   shortName={"E-mail"}
                   fullName={"E-mail address"}
-                  contact={"pingpingkuss@gmail.com"}
-                  contactNowBtn={"mailto:pingpingkuss@gmail.com"}
+                  contact={"chanya.sittinun@gmail.com"}
+                  contactNowBtn={"mailto:chanya.sittinun@gmail.com"}
                   contactNowText={"Mail me"}
                   show={modalMailShow}
                   onHide={() => setModalMailShow(false)}
@@ -72,8 +93,8 @@ function PersonalInfoPart() {
                   title={"โทรศัพท์"}
                   shortName={"Tel"}
                   fullName={"Phone Number"}
-                  contact={"0XX-XXX-XXXX"}
-                  contactNowBtn={""}
+                  contact={"096-859-3355"}
+                  contactNowBtn={"tel:+66968593355"}
                   contactNowText={"Call me"}
                   show={modalPhoneShow}
                   onHide={() => setModalPhoneShow(false)}
